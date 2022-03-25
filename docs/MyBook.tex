@@ -1,0 +1,505 @@
+% Template adapted from https://github.com/jgm/pandoc-templates/blob/master/default.latex
+% To be used with XeLaTex in memoiR
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode=true}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames*,x11names*}{xcolor}
+% Right to left support
+
+
+\documentclass[
+  12pt,
+  american,
+  a4paper,
+  extrafontsizes,onecolumn,openright
+  ]{memoir}
+
+% Double (or whatever) spacing
+
+% Math
+\usepackage{amssymb, amsmath}
+% mathspec: arbitrary math fonts
+\usepackage{unicode-math}
+\defaultfontfeatures{Scale=MatchLowercase}
+\defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+
+% Fonts
+\usepackage{lmodern}
+\usepackage{fontspec}
+% Main font
+% Specific sanserif font
+% Specific monotype font
+% Specific math font
+% Chinese, Japanese, Corean fonts
+
+% Use upquote for straight quotes in verbatim environments
+\usepackage{upquote}
+% Use microtype
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+
+% Verbatim in note
+
+% Color links
+\usepackage{xcolor}
+
+% Strikeout
+
+% Necessary for code chunks
+
+% Listings package
+
+% Tables
+\usepackage{longtable,booktabs,tabu}
+% Fix footnotes in tables (requires footnote package)
+\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{longtable}}{}
+
+% Graphics
+\usepackage{graphicx,grffile}
+\graphicspath{{images/}}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+
+% Prevent overfull lines
+\setlength{\emergencystretch}{3em}  
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% Number sections for memoir (secnumdepth counter is ignored)
+\setsecnumdepth{section}
+
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+% Include headers (preamble.tex) here
+% Add LaTeX code into the preamble of the document here
+\hyphenation{bio-di-ver-si-ty sap-lings}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% memoiR dalef3 chapter style 
+% https://ctan.crest.fr/tex-archive/info/latex-samples/MemoirChapStyles/MemoirChapStyles.pdf
+\usepackage{soul}
+\definecolor{nicered}{rgb}{.647,.129,.149}
+\makeatletter
+\newlength\dlf@normtxtw
+\setlength\dlf@normtxtw{\textwidth}
+\def\myhelvetfont{\def\sfdefault{mdput}}
+\newsavebox{\feline@chapter}
+\newcommand\feline@chapter@marker[1][4cm]{%
+  \sbox\feline@chapter{%
+    \resizebox{!}{#1}{\fboxsep=1pt%
+	  \colorbox{nicered}{\color{white}\bfseries\sffamily\thechapter}%
+	}}%
+  \rotatebox{90}{%
+    \resizebox{%
+	  \heightof{\usebox{\feline@chapter}}+\depthof{\usebox{\feline@chapter}}}%
+	{!}{\scshape\so\@chapapp}}\quad%
+  \raisebox{\depthof{\usebox{\feline@chapter}}}{\usebox{\feline@chapter}}%
+ }
+\newcommand\feline@chm[1][4cm]{%
+  \sbox\feline@chapter{\feline@chapter@marker[#1]}%
+  \makebox[0pt][l]{% aka \rlap
+    \makebox[1cm][r]{\usebox\feline@chapter}%
+  }}
+\makechapterstyle{daleif1}{
+  \renewcommand\chapnamefont{\normalfont\Large\scshape\raggedleft\so}
+  \renewcommand\chaptitlefont{\normalfont\huge\bfseries\scshape\color{nicered}}
+  \renewcommand\chapternamenum{}
+  \renewcommand\printchaptername{}
+  \renewcommand\printchapternum{\null\hfill\feline@chm[2.5cm]\par}
+  \renewcommand\afterchapternum{\par\vskip\midchapskip}
+  \renewcommand\printchaptertitle[1]{\chaptitlefont\raggedleft ##1\par}
+}
+\makeatother
+
+% Spacing in lists
+\usepackage{enumitem}
+
+% Polyglossia
+\usepackage{polyglossia}
+\setmainlanguage{en-US}
+\setotherlanguage{fr-FR}
+\setotherlanguage{it}
+
+% BibLaTeX
+\usepackage[backend=biber,style=authoryear-ibid,isbn=false,backref=true,giveninits=true,uniquename=init,maxcitenames=2,maxbibnames=150,sorting=nyt,sortcites=false]{biblatex}
+\addbibresource{references.bib}
+
+% cslreferences environment required by pandoc > 2.7
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% memoiR format
+
+% Chapter Summary environment 
+\usepackage[tikz]{bclogo}
+\newenvironment{Summary}
+  {\begin{bclogo}[logo=\bctrombone, noborder=true, couleur=lightgray!50]{In a Nutshell}\parindent0pt}
+  {\end{bclogo}}
+% Syntax:
+%
+%```{block, type='Summary'}
+% Deliver message here.
+% ```
+
+% scriptsize code 
+\let\oldverbatim\verbatim
+\def\verbatim{\oldverbatim\scriptsize}
+% Applies to code blocks and R code results
+% code chunk options size='scriptsize' applies only to R code and results
+% if the code chunk sets a different size, \def\verbatim{...} is prioritary for code results 
+
+
+% Layout
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Based on memoir, style companion
+\newcommand{\MemoirChapStyle}{daleif1}
+\newcommand{\MemoirPageStyle}{Ruled}
+
+% Space between paragraphs
+\usepackage{parskip}
+	\abnormalparskip{3pt}
+
+% Adjust margin paragraphs vertical position
+\usepackage{marginfix}
+
+
+% Margins
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% allow use of '-',+','/' ans '*' to make simple length computation
+\usepackage{calc}
+
+% Full-width figures utilities
+\newlength\widthw % full width
+\newlength{\rf}
+\newcommand*{\definesHSpace}{
+  \strictpagecheck % slower but efficient detection of odd/even pages
+  \checkoddpage
+  \ifoddpage
+  \setlength{\rf}{0mm}
+  \else
+  \setlength{\rf}{\marginparsep+\marginparwidth}
+  \fi
+}
+
+\makeatletter
+% 1" margins for the front matter.
+\newcommand*{\SmallMargins}{
+  \setlrmarginsandblock{1.5in}{1.5in}{*}
+  \setmarginnotes{0.1in}{0.1in}{0.1in}
+ \setulmarginsandblock{1.5in}{1in}{*}
+  \checkandfixthelayout
+  \ch@ngetext
+  \clearpage
+  \setlength{\widthw}{\textwidth+\marginparsep+\marginparwidth}
+  \footnotesatfoot
+  \chapterstyle{\MemoirChapStyle}	% Chapter and page styles must be recalled
+  \pagestyle{\MemoirPageStyle}
+}
+
+% 3" outer margin for the main matter
+\newcommand{\LargeMargins}{\SmallMargins}
+\makeatother
+
+% Figure captions and footnotes in outer margins
+
+
+% Main title page with filigrane
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\MainTitlePage}[2]{
+	\SmallMargins % Margins
+	\pagestyle{empty} % No header/footer
+	~\\ % Print a character or the page will not exist
+	\begin{textblock}{2}(30,10)
+		\rule{1pt}{\paperheight-20mm}
+	\end{textblock}
+	\begin{textblock}{140}(50, 45)
+		\flushright
+		\begin{Spacing}{3}
+			{\fontfamily{qtm}\selectfont\fontsize{45}{45}\selectfont \textsc{\thetitle}}
+		\end{Spacing}
+	\end{textblock}
+	\begin{textblock}{140}(50, 125)
+		\flushright
+		{\fontfamily{qtm}\Large \theauthor}
+	\end{textblock}
+		\begin{textblock}{140}[0, 1](50, 262)
+		\normalfont	Version: \thedate
+	\end{textblock}
+	\newpage
+	~\\ % Print a character or the page will not exist
+	\begin{textblock}{140}(40, 40)
+		#1
+	\end{textblock}
+	\begin{textblock}{140}[0,1](40, 270)
+		\centering
+    \includegraphics[width=5cm]{logo}\\ \bigskip
+    #2
+	\end{textblock}
+	\newpage
+}
+
+% Clear page and open an even one (\clearpage opens an odd one)
+\newcommand{\evenpage}{
+  \clearpage
+	\strictpagecheck % slower but efficient detection of odd/even pages
+  \checkoddpage
+  \ifoddpage
+    \thispagestyle{empty}
+    ~\\ % Print a character or the page will not exist
+    \newpage
+  \else
+    % do nothing
+  \fi
+}
+
+% Text blocks
+\usepackage[absolute,overlay]{textpos}
+	\setlength{\TPHorizModule}{1mm}
+	\setlength{\TPVertModule}{1mm}
+
+
+%% PDF title page to insert
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{pdfpages}
+
+
+%% Bibliography
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[strict,autostyle]{csquotes}
+% Repeated citation as author-year-title instead of author-title (modification of footcite:note in verbose-inote.cbx)
+
+%% Table of Contents
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% fix the typesetting of the part number
+\renewcommand\partnumberlinebox[2]{#2\ ---\ }
+
+
+% Fonts
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% Hyperref comes last
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{hyperref}
+\hypersetup{
+  pdftitle={Memoir Template},
+  pdfauthor={Authors' names},
+  colorlinks=true,
+  linkcolor=Maroon,
+  citecolor=Blue,
+  urlcolor=Blue,
+  breaklinks=true}
+
+% Don't use monospace font for urls
+\urlstyle{same}
+
+
+% Title, author, date from YAML to LaTeX
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Memoir Template}
+
+\author{Authors' names}
+
+\date{2022-03-25}
+
+
+% End of preamble
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+\frontmatter
+
+% Title page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\includepdf[pages=1]{images/cover.pdf}
+\cleardoublepage
+
+\MainTitlePage{This document is reproducible thanks to:
+
+\begin{itemize}
+  \item \LaTeX and its class memoir (\url{http://www.ctan.org/pkg/memoir}).
+  \item R (\url{http://www.r-project.org/}) and RStudio (\url{http://www.rstudio.com/})
+  \item bookdown (\url{http://bookdown.org/}) and memoiR (\url{https://ericmarcon.github.io/memoiR/})
+\end{itemize}}{Name of the owner of the logo
+
+\url{http://www.company.com}
+
+An explanatory sentence.
+Leave an empty line for line breaks.}
+
+
+% Before Body
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+% Contents
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\LargeMargins
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+
+
+% Body
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\LargeMargins
+\hypertarget{title-page}{%
+\chapter{Title page\ldots{}}\label{title-page}}
+
+Placeholder
+
+\hypertarget{getting_started}{%
+\chapter{Getting Started}\label{getting_started}}
+
+Placeholder
+
+\hypertarget{index}{%
+\section{index.Rmd}\label{index}}
+
+\hypertarget{bookdown.yml}{%
+\section{\_bookdown.yml}\label{bookdown.yml}}
+
+\hypertarget{output.yml}{%
+\section{\_output.yml}\label{output.yml}}
+
+\hypertarget{multilingual-documents}{%
+\section{Multilingual documents}\label{multilingual-documents}}
+
+\hypertarget{syntax}{%
+\chapter{Syntax}\label{syntax}}
+
+Placeholder
+
+\hypertarget{write}{%
+\section{Write}\label{write}}
+
+\hypertarget{r-code}{%
+\section{R code}\label{r-code}}
+
+\hypertarget{figures}{%
+\section{Figures}\label{figures}}
+
+\hypertarget{tables}{%
+\section{Tables}\label{tables}}
+
+\hypertarget{maths}{%
+\section{Maths}\label{maths}}
+
+\hypertarget{cross-references}{%
+\section{Cross-references}\label{cross-references}}
+
+\hypertarget{bibliography}{%
+\section{Bibliography}\label{bibliography}}
+
+\hypertarget{forcing-line-breaks}{%
+\section{Forcing line breaks}\label{forcing-line-breaks}}
+
+\hypertarget{sec:languages}{%
+\section{Languages}\label{sec:languages}}
+
+\hypertarget{chapter-summary}{%
+\section{Chapter summary}\label{chapter-summary}}
+
+\hypertarget{documentation}{%
+\section{Documentation}\label{documentation}}
+
+\hypertarget{user-documentation}{%
+\subsection{User documentation}\label{user-documentation}}
+
+\hypertarget{documentation-for-developers}{%
+\subsection{Documentation for developers}\label{documentation-for-developers}}
+
+This template is based on \emph{Bookdown} and the \emph{Memoir} LaTeX class to allow writing a book, a report, a PhD thesis, etc. in \emph{R Markdown}.
+
+The main file is \emph{index.Rmd} which contains the description of the book in its header. All other \emph{.Rmd} files in the folder contain a chapter.
+The \emph{references.bib} file contains the bibliography.
+
+This file will have to be deleted, as well as \emph{81-getting\_started.Rmd} and \emph{82-syntax.Rmd}: they have to be replaced by the content of the book.
+
+To get started, create a new R project from this folder.
+Then open \emph{index.Rmd} and click on the \emph{Build Book} button in the \emph{Build} window of Rstudio.
+
+
+% Bibliography
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\backmatter
+\SmallMargins
+
+\printbibliography
+\onecolumn
+
+
+% Tables (of tables, of figures)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\cleardoublepage
+\LargeMargins
+\listoffigures
+
+
+% After-body (LaTeX code inclusion)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+% Back cover
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Even page, small margins, no running head, no page number.
+\evenpage
+\SmallMargins
+\thispagestyle{empty}
+
+\begin{normalsize}
+
+\begin{description}
+
+\selectlanguage{english}
+\item[Abstract]
+English abstract, on the last page.
+
+This is a bookdown template based on LaTeX memoir class.
+\item[Keywords]
+Keyword in English, As a list.
+~\\
+
+\end{description}
+
+\end{normalsize}
+
+\vspace*{\fill}
+\centering\includegraphics[width=.3\textwidth]{images/logo}
+\end{document}

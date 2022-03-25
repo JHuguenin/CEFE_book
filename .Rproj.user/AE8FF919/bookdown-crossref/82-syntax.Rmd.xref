@@ -1,0 +1,19 @@
+h1:syntax Syntax
+h2:write Write
+h2:r-code R code
+h2:figures Figures
+fig:pressure A full width figure
+(ref:pressure2) Title with , math () and reference to figure @ref(fig:pressure)
+fig:pressure2 (ref:pressure2)
+h2:tables Tables
+tab:kable Table created by R
+h2:maths Maths
+h2:cross-references Cross-references
+h2:bibliography Bibliography
+h2:forcing-line-breaks Forcing line breaks
+h2:sec:languages Languages
+h2:chapter-summary Chapter summary
+h2:documentation Documentation
+h3:user-documentation User documentation
+h3:documentation-for-developers Documentation for developers
+

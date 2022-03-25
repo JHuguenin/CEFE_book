@@ -1,0 +1,2921 @@
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.3.21)  25 MAR 2022 11:14
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**MyBook.tex
+(./MyBook.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/memoir/memoir.c
+ls
+Document Class: memoir 2022/02/20 v3.7q configurable book, report, article docu
+ment class
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolb
+ox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count181
+)
+\onelineskip=\skip47
+\lxvchars=\skip48
+\xlvchars=\skip49
+\@memcnta=\count182
+\c@@memmarkcntra=\count183
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/iftex.s
+ty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+\stockheight=\skip50
+\stockwidth=\skip51
+\trimtop=\skip52
+\trimedge=\skip53
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 70
+7.
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/memoir/mem12.cl
+o
+File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
+) (c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/lmodern.st
+y
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fontenc.st
+y
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+\binding=\skip54
+\spinemargin=\skip55
+\foremargin=\skip56
+\uppermargin=\skip57
+\lowermargin=\skip58
+\headdrop=\skip59
+\normalrulethickness=\skip60
+\mem@maxheadheight=\skip61
+\mem@maxfootheight=\skip62
+\headwidth=\skip63
+\c@storedpagenumber=\count184
+\memPD=\dimen138
+\m@mabparskip=\skip64
+\thanksmarkwidth=\skip65
+\thanksmarksep=\skip66
+\droptitle=\skip67
+\c@book=\count185
+\c@part=\count186
+\c@chapter=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\beforechapskip=\skip68
+\midchapskip=\skip69
+\afterchapskip=\skip70
+\chapindent=\skip71
+\bottomsectionskip=\skip72
+\secindent=\skip73
+\beforesecskip=\skip74
+\aftersecskip=\skip75
+\subsecindent=\skip76
+\beforesubsecskip=\skip77
+\aftersubsecskip=\skip78
+\subsubsecindent=\skip79
+\beforesubsubsecskip=\skip80
+\aftersubsubsecskip=\skip81
+\paraindent=\skip82
+\beforeparaskip=\skip83
+\afterparaskip=\skip84
+\subparaindent=\skip85
+\beforesubparaskip=\skip86
+\aftersubparaskip=\skip87
+\pfbreakskip=\skip88
+\c@@ppsavesec=\count193
+\c@@ppsaveapp=\count194
+\ragrparindent=\dimen139
+\everylistparindent=\dimen140
+\parsepi=\skip89
+\topsepi=\skip90
+\itemsepi=\skip91
+\parsepii=\skip92
+\topsepii=\skip93
+\topsepiii=\skip94
+\itemsepii=\skip95
+\itemsepiii=\skip96
+\partopsepii=\skip97
+\partopsepiii=\skip98
+\m@msavetopsep=\skip99
+\m@msavepartopsep=\skip100
+\@enLab=\toks16
+\abstitleskip=\skip101
+\absleftindent=\skip102
+\abs@leftindent=\dimen141
+\absrightindent=\skip103
+\absparindent=\skip104
+\absparsep=\skip105
+\c@vslineno=\count195
+\c@poemline=\count196
+\c@modulo@vs=\count197
+\c@memfvsline=\count198
+\vleftskip=\skip106
+\vrightskip=\skip107
+\stanzaskip=\skip108
+\versewidth=\skip109
+\vgap=\skip110
+\vindent=\skip111
+\vleftmargin=\dimen142
+\c@verse=\count199
+\c@chrsinstr=\count266
+\beforepoemtitleskip=\skip112
+\afterpoemtitleskip=\skip113
+\c@poem=\count267
+\beforePoemTitleskip=\skip114
+\midPoemTitleskip=\skip115
+\afterPoemTitleskip=\skip116
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen143
+\ar@mcellbox=\box50
+\extrarowheight=\dimen144
+\NC@list=\toks17
+\extratabsurround=\skip117
+\backup@length=\skip118
+\ar@cellbox=\box51
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/dcolumn.s
+ty
+Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/delarray.
+sty
+Package: delarray 2014/10/28 v1.01 array delimiter package (DPC)
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/tabularx.
+sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen145
+\TX@old@table=\dimen146
+\TX@old@col=\dimen147
+\TX@target=\dimen148
+\TX@delta=\dimen149
+\TX@cols=\count268
+\TX@ftn=\toks18
+)
+\heavyrulewidth=\dimen150
+\lightrulewidth=\dimen151
+\cmidrulewidth=\dimen152
+\belowrulesep=\dimen153
+\belowbottomsep=\dimen154
+\aboverulesep=\dimen155
+\abovetopsep=\dimen156
+\cmidrulesep=\dimen157
+\cmidrulekern=\dimen158
+\defaultaddspace=\dimen159
+\@cmidla=\count269
+\@cmidlb=\count270
+\@aboverulesep=\dimen160
+\@belowrulesep=\dimen161
+\@thisruleclass=\count271
+\@lastruleclass=\count272
+\@thisrulewidth=\dimen162
+\ctableftskip=\skip119
+\ctabrightskip=\skip120
+\abovecolumnspenalty=\count273
+\@linestogo=\count274
+\@cellstogo=\count275
+\@cellsincolumn=\count276
+\crtok=\toks19
+\@mincolumnwidth=\dimen163
+\c@newflo@tctr=\count277
+\mem@margin@floatbox=\box52
+\@contcwidth=\skip121
+\@contindw=\skip122
+\abovecaptionskip=\skip123
+\belowcaptionskip=\skip124
+\subfloattopskip=\skip125
+\subfloatcapskip=\skip126
+\subfloatcaptopadj=\skip127
+\subfloatbottomskip=\skip128
+\subfloatlabelskip=\skip129
+\subfloatcapmargin=\dimen164
+\c@@contsubnum=\count278
+\m@mscap@capbox=\box53
+\m@mscap@fbox=\box54
+\sidecapsep=\dimen165
+\sidecapwidth=\dimen166
+\m@m@tempdima=\dimen167
+\m@mscapraise=\dimen168
+\sidecapraise=\dimen169
+\m@mscapmainwidth=\dimen170
+\m@mscaplkern=\dimen171
+\beforeepigraphskip=\skip130
+\afterepigraphskip=\skip131
+\epigraphwidth=\skip132
+\epigraphrule=\skip133
+LaTeX Info: Redefining \em on input line 7655.
+LaTeX Info: Redefining \emph on input line 7663.
+\tocentryskip=\skip134
+\tocbaseline=\skip135
+\cftparskip=\skip136
+\cftbeforebookskip=\skip137
+\cftbookindent=\dimen172
+\cftbooknumwidth=\dimen173
+\cftbeforepartskip=\skip138
+\cftpartindent=\skip139
+\cftpartnumwidth=\skip140
+\cftbeforechapterskip=\skip141
+\cftchapterindent=\skip142
+\cftchapternumwidth=\skip143
+\cftbeforesectionskip=\skip144
+\cftsectionindent=\skip145
+\cftsectionnumwidth=\skip146
+\cftbeforesubsectionskip=\skip147
+\cftsubsectionindent=\skip148
+\cftsubsectionnumwidth=\skip149
+\cftbeforesubsubsectionskip=\skip150
+\cftsubsubsectionindent=\skip151
+\cftsubsubsectionnumwidth=\skip152
+\cftbeforeparagraphskip=\skip153
+\cftparagraphindent=\skip154
+\cftparagraphnumwidth=\skip155
+\cftbeforesubparagraphskip=\skip156
+\cftsubparagraphindent=\skip157
+\cftsubparagraphnumwidth=\skip158
+\prechapterprecisshift=\dimen174
+\c@maxsecnumdepth=\count279
+\bibindent=\dimen175
+\bibitemsep=\skip159
+\indexcolsep=\skip160
+\indexrule=\skip161
+\indexmarkstyle=\toks20
+\@indexbox=\insert252
+\glossarycolsep=\dimen176
+\glossaryrule=\dimen177
+\sideparvshift=\skip162
+\sideins=\insert251
+\sidebartopsep=\skip163
+\sidebarhsep=\skip164
+\sidebarvsep=\skip165
+\sidebarwidth=\skip166
+\footmarkwidth=\skip167
+\footmarksep=\skip168
+\footparindent=\skip169
+\footinsdim=\skip170
+\footinsv@r=\insert250
+\@mpfootinsv@r=\insert249
+\m@m@k=\count280
+\m@m@h=\dimen178
+\m@mipn@skip=\skip171
+\sidefootins=\insert248
+\sidefootadjust=\skip172
+\sidefootheight=\skip173
+\sidefoothsep=\skip174
+\sidefootvsep=\skip175
+\sidefootwidth=\skip176
+\m@mdownsf=\skip177
+\c@sidefootnote=\count281
+\sidefootmarkwidth=\skip178
+\sidefootmarksep=\skip179
+\sidefootparindent=\skip180
+\c@pagenote=\count282
+\c@pagenoteshadow=\count283
+\mem@pn@lastkern=\skip181
+\every@verbatim=\toks21
+\afterevery@verbatim=\toks22
+\verbatim@line=\toks23
+\tab@position=\count284
+\verbatim@in@stream=\read2
+\verbatimindent=\skip182
+\verbatim@out=\write3
+\bvboxsep=\skip183
+\c@memfbvline=\count285
+\c@bvlinectr=\count286
+\bvnumlength=\skip184
+\fb@frw=\dimen179
+\fb@frh=\dimen180
+\FrameRule=\dimen181
+\FrameSep=\dimen182
+\c@cp@cntr=\count287
+\c@ism@mctr=\count288
+\c@xsm@mctr=\count289
+\c@csm@mctr=\count290
+\c@ksm@mctr=\count291
+\c@xksm@mctr=\count292
+\c@cksm@mctr=\count293
+\c@msm@mctr=\count294
+\c@xmsm@mctr=\count295
+\c@cmsm@mctr=\count296
+\c@bsm@mctr=\count297
+\c@workm@mctr=\count298
+\c@sheetsequence=\count299
+\c@lastsheet=\count300
+\c@lastpage=\count301
+
+Class memoir Warning: Haven't found the textcase package,
+(memoir)              resorting to embedded copy of v0.07 (2004/10/07),
+(memoir)              consider installing the textcase package on input line 13
+005.
+
+\c@figure=\count302
+\c@lofdepth=\count303
+\cftbeforefigureskip=\skip185
+\cftfigureindent=\skip186
+\cftfigurenumwidth=\skip187
+\c@table=\count304
+\c@lotdepth=\count305
+\cftbeforetableskip=\skip188
+\cfttableindent=\skip189
+\cfttablenumwidth=\skip190
+Package abstract [2008/07/23] emulated by memoir.
+Package appendix [2008/07/23] emulated by memoir.
+Package booktabs [2016/05/16] emulated by memoir.
+Package ccaption [2008/07/23] emulated by memoir.
+Package changepage [2008/07/23] emulated by memoir.
+Package chngcntr [2008/07/23] emulated by memoir.
+Package chngpage [2008/07/23] emulated by memoir.
+Package crop emulated by memoir.
+Package enumerate [2008/07/23] emulated by memoir.
+Package epigraph [2008/07/23] emulated by memoir.
+Package ifmtarg [2008/07/23] emulated by memoir.
+Package index [2008/07/23] emulated by memoir.
+Package makeidx [2008/07/23] emulated by memoir.
+Package moreverb [2008/07/23] emulated by memoir.
+Package needspace [2008/07/23] emulated by memoir.
+Package newfile [2008/07/23] emulated by memoir.
+Package nextpage [2008/07/23] emulated by memoir.
+Package pagenote [2008/07/23] emulated by memoir.
+Package parskip [2008/07/23] emulated by memoir.
+Package patchcmd [2008/07/23] emulated by memoir.
+Package setspace [2008/07/23] emulated by memoir.
+Package shortvrb [2008/07/23] emulated by memoir.
+Package showidx [2008/07/23] emulated by memoir.
+Package titleref [2008/07/23] emulated by memoir.
+Package titling [2008/07/23] emulated by memoir.
+Package tocbibind [2008/07/23] emulated by memoir.
+Package tocloft [2008/07/23] emulated by memoir.
+Package tocvsec2 [2008/07/23] emulated by memoir.
+Package verbatim [2008/07/23] emulated by memoir.
+Package verse [2008/07/23] emulated by memoir.
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amssym
+b.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfon
+ts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks24
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath
+.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip191
+For additional information on amsmath, use the `?' option.
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amstext
+.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.
+sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks25
+\ex@=\dimen183
+))
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.
+sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen184
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.
+sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count306
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count307
+\leftroot@=\count308
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count309
+\DOTSCASE@=\count310
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box55
+\strutbox@=\box56
+\big@size=\dimen185
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count311
+\c@MaxMatrixCols=\count312
+\dotsspace@=\muskip16
+\c@parentequation=\count313
+\dspbrk@lvl=\count314
+\tag@help=\toks26
+\row@=\count315
+\column@=\count316
+\maxfields@=\count317
+\andhelp@=\toks27
+\eqnshift@=\dimen186
+\alignsep@=\dimen187
+\tagshift@=\dimen188
+\tagwidth@=\dimen189
+\totwidth@=\dimen190
+\lineht@=\dimen191
+\@envbody=\toks28
+\multlinegap=\skip192
+\multlinetaggap=\skip193
+\mathdisplay@stack=\toks29
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/un
+icode-math.sty
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.
+sty
+Package: expl3 2022-02-24 L3 programming layer (loader) 
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3bac
+kend-xetex.def
+File: l3backend-xetex.def 2022-02-07 L3 backend support: XeTeX
+(|extractbb --version)
+\c__kernel_sys_dvipdfmx_version_int=\count318
+\l__color_backend_stack_int=\count319
+\g__color_backend_stack_int=\count320
+\g__graphics_track_int=\count321
+\l__pdf_internal_box=\box57
+\g__pdf_backend_object_int=\count322
+\g__pdf_backend_annotation_int=\count323
+\g__pdf_backend_link_int=\count324
+))
+Package: unicode-math 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/un
+icode-math-xetex.sty
+Package: unicode-math-xetex 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLa
+TeX
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xpar
+se/xparse.sty
+Package: xparse 2022-01-12 L3 Experimental document command parser
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/l3ke
+ys2e/l3keys2e.sty
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/fontsp
+ec.sty
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/fontsp
+ec-xetex.sty
+Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count325
+\l__fontspec_language_int=\count326
+\l__fontspec_strnum_int=\count327
+\l__fontspec_tmp_int=\count328
+\l__fontspec_tmpa_int=\count329
+\l__fontspec_tmpb_int=\count330
+\l__fontspec_tmpc_int=\count331
+\l__fontspec_em_int=\count332
+\l__fontspec_emdef_int=\count333
+\l__fontspec_strong_int=\count334
+\l__fontspec_strongdef_int=\count335
+\l__fontspec_tmpa_dim=\dimen192
+\l__fontspec_tmpb_dim=\dimen193
+\l__fontspec_tmpc_dim=\dimen194
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fontenc.st
+y
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/fontsp
+ec.cfg)))
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+))
+\g__um_fam_int=\count336
+\g__um_fonts_used_int=\count337
+\l__um_primecount_int=\count338
+\g__um_primekern_muskip=\muskip17
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/un
+icode-math-table.tex)))
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/upquote/upquote
+.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/textcomp.s
+ty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+))
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/micro
+type.sty
+Package: microtype 2022/03/14 v3.0d Micro-typographical refinements (RS)
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/keyval
+.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks30
+)
+\MT@toks=\toks31
+\MT@tempbox=\box58
+\MT@count=\count339
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1027.
+LaTeX Info: Redefining \leftprotrusion on input line 1028.
+LaTeX Info: Redefining \rightprotrusion on input line 1036.
+LaTeX Info: Redefining \textls on input line 1195.
+\MT@outer@kern=\dimen195
+LaTeX Info: Redefining \textmicrotypecontext on input line 1781.
+\MT@listname@count=\count340
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/micro
+type-xetex.def
+File: microtype-xetex.def 2022/03/14 v3.0d Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 236.
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/micro
+type.cfg
+File: microtype.cfg 2022/03/14 v3.0d microtype main configuration file (RS)
+))
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.s
+ty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/co
+lor.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 227.
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-def/xe
+tex.def
+File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/dvipsn
+am.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/svgnam.d
+ef
+File: svgnam.def 2021/10/31 v2.13 Predefined colors according to SVG 1.1 (UK)
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/x11nam.d
+ef
+File: x11nam.def 2021/10/31 v2.13 Predefined colors according to Unix/X11 (UK)
+))
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/longtable
+.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip194
+\LTright=\skip195
+\LTpre=\skip196
+\LTpost=\skip197
+\LTchunksize=\count341
+\LTcapwidth=\dimen196
+\LT@head=\box59
+\LT@firsthead=\box60
+\LT@foot=\box61
+\LT@lastfoot=\box62
+\LT@gbox=\box63
+\LT@cols=\count342
+\LT@rows=\count343
+\c@LT@tables=\count344
+\c@LT@chunks=\count345
+\LT@p@ftn=\toks32
+) (c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tabu/tabu.sty
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/varwidth/varwid
+th.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box64
+\sift@deathcycles=\count346
+\@vwid@loff=\dimen197
+\@vwid@roff=\dimen198
+)
+\c@taburow=\count347
+\tabu@nbcols=\count348
+\tabu@cnt=\count349
+\tabu@Xcol=\count350
+\tabu@alloc=\count351
+\tabu@nested=\count352
+\tabu@target=\dimen199
+\tabu@spreadtarget=\dimen256
+\tabu@naturalX=\dimen257
+\tabucolX=\dimen258
+\tabu@Xsum=\dimen259
+\extrarowdepth=\dimen260
+\abovetabulinesep=\dimen261
+\belowtabulinesep=\dimen262
+\tabustrutrule=\dimen263
+\tabu@thebody=\toks33
+\tabu@footnotes=\toks34
+\tabu@box=\box65
+\tabu@arstrutbox=\box66
+\tabu@hleads=\box67
+\tabu@vleads=\box68
+\tabu@cellskip=\skip198
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/mdwtools/footno
+te.sty
+Package: footnote 1997/01/28 1.13 Save footnotes around boxes
+\fn@notes=\box69
+\fn@width=\dimen264
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphi
+cx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphi
+cs.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/trig.s
+ty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/gr
+aphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 107.
+)
+\Gin@req@height=\dimen265
+\Gin@req@width=\dimen266
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/grffile/grffile
+.sty
+Package: grffile 2019/11/11 v2.1 Extended file name support for graphics (legac
+y)
+Package grffile Info: This package is an empty stub for compatibility on input 
+line 40.
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks35
+\SOUL@lasttoken=\toks36
+\SOUL@cmds=\toks37
+\SOUL@buffer=\toks38
+\SOUL@token=\toks39
+\SOUL@spaceskip=\skip199
+\SOUL@ttwidth=\dimen267
+\SOUL@uldp=\dimen268
+\SOUL@ulht=\dimen269
+)
+\dlf@normtxtw=\skip256
+\feline@chapter=\box70
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/enumitem/enumit
+em.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip257
+\enit@outerparindent=\dimen270
+\enit@toks=\toks40
+\enit@inbox=\box71
+\enit@count@id=\count353
+\enitdp@description=\count354
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/polyglossia/pol
+yglossia.sty
+Package: polyglossia 2021/04/12 v1.53 Modern multilingual typesetting with XeLa
+TeX and LuaLaTeX
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/makecmds/makecm
+ds.sty
+Package: makecmds 2009/09/03 v1.0a extra command making commands
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval
+.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyv
+al.tex
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xkeyval/xkvut
+ils.tex
+\XKV@toks=\toks41
+\XKV@tempa@toks=\toks42
+)
+\XKV@depth=\count355
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+
+LaTeX hooks Warning: Generic hook 'file/after/tracklang.sty' is deprecated.
+(hooks)              Use hook 'file/tracklang.sty/after' instead.
+
+
+LaTeX hooks Warning: Generic hook 'package/after/bidi' is deprecated.
+(hooks)              Use hook 'package/bidi/after' instead.
+
+
+LaTeX hooks Warning: Generic hook 'package/after/luabidi' is deprecated.
+(hooks)              Use hook 'package/luabidi/after' instead.
+
+\xpg@normalclass=\XeTeXcharclass1
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/polyglossia/glo
+ss-latex.ldf
+File: gloss-latex.ldf polyglossia: module for default language
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}.
+)
+Package polyglossia Info: Default language is latex.
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/polyglossia/glo
+ss-en-US.ldf
+File: gloss-en-US.ldf polyglossia: module for en-US (english)
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/polyglossia/glo
+ss-english.ldf
+File: gloss-english.ldf polyglossia: module for english
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/script}  =>  {latin}
+>  {english/lcscript}  =>  {latin}
+>  {english/scripttag}  =>  {}
+>  {english/language}  =>  {English}
+>  {english/langtag}  =>  {ENG}
+>  {english/bcp47}  =>  {en-US}
+>  {english/hyphennames}  =>  {english,american,usenglish,USenglish}
+>  {english/direction}  =>  {LR}
+>  {english/hyphenmins}  =>  {2,3}
+>  {english/frenchspacing}  =>  {false}
+>  {english/indentfirst}  =>  {false}
+>  {english/fontsetup}  =>  {true}
+>  {english/envname}  =>  {english}
+>  {english/babelname}  =>  {english}
+>  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}.
+Package polyglossia Info: Option: English, variant=american.
+))
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/polyglossia/glo
+ss-english.ldf
+File: gloss-english.ldf polyglossia: module for english
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/script}  =>  {latin}
+>  {english/lcscript}  =>  {latin}
+>  {english/scripttag}  =>  {}
+>  {english/language}  =>  {English}
+>  {english/langtag}  =>  {ENG}
+>  {english/bcp47}  =>  {en-US}
+>  {english/hyphennames}  =>  {english,american,usenglish,USenglish}
+>  {english/direction}  =>  {LR}
+>  {english/hyphenmins}  =>  {2,3}
+>  {english/frenchspacing}  =>  {false}
+>  {english/indentfirst}  =>  {false}
+>  {english/fontsetup}  =>  {true}
+>  {english/envname}  =>  {english}
+>  {english/babelname}  =>  {english}
+>  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}.
+Package polyglossia Info: Option: English, variant=american.
+)
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Default language is english.
+Package polyglossia Info: Option: English, variant=american.
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/polyglossia/glo
+ss-fr-FR.ldf
+File: gloss-fr-FR.ldf polyglossia: module for fr-FR (french)
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/polyglossia/glo
+ss-french.ldf
+File: gloss-french.ldf polyglossia: module for french
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/script}  =>  {latin}
+>  {english/lcscript}  =>  {latin}
+>  {english/scripttag}  =>  {}
+>  {english/language}  =>  {English}
+>  {english/langtag}  =>  {ENG}
+>  {english/bcp47}  =>  {en-US}
+>  {english/hyphennames}  =>  {english,american,usenglish,USenglish}
+>  {english/direction}  =>  {LR}
+>  {english/hyphenmins}  =>  {2,3}
+>  {english/frenchspacing}  =>  {false}
+>  {english/indentfirst}  =>  {false}
+>  {english/fontsetup}  =>  {true}
+>  {english/envname}  =>  {english}
+>  {english/babelname}  =>  {american}
+>  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {french/script}  =>  {Latin}
+>  {french/lcscript}  =>  {latin}
+>  {french/scripttag}  =>  {}
+>  {french/language}  =>  {French}
+>  {french/langtag}  =>  {FRA}
+>  {french/bcp47}  =>  {fr-FR}
+>  {french/hyphennames}  =>  {french,francais}
+>  {french/direction}  =>  {LR}
+>  {french/hyphenmins}  =>  {2,2}
+>  {french/frenchspacing}  =>  {true}
+>  {french/indentfirst}  =>  {true}
+>  {french/fontsetup}  =>  {true}
+>  {french/envname}  =>  {french}
+>  {french/babelname}  =>  {french}
+>  {french/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {french/Localnumeral}  =>  {polyglossia@C@localnumeral}.
+\french@openbrackets=\XeTeXcharclass2
+\french@closebrackets=\XeTeXcharclass3
+\french@questionexclamation=\XeTeXcharclass4
+\french@punctthin=\XeTeXcharclass5
+\french@punctthick=\XeTeXcharclass6
+\french@punctguillstart=\XeTeXcharclass7
+\french@punctguillend=\XeTeXcharclass8
+Package polyglossia Info: Option: French, variant=french.
+))
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/polyglossia/glo
+ss-french.ldf
+File: gloss-french.ldf polyglossia: module for french
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/script}  =>  {latin}
+>  {english/lcscript}  =>  {latin}
+>  {english/scripttag}  =>  {}
+>  {english/language}  =>  {English}
+>  {english/langtag}  =>  {ENG}
+>  {english/bcp47}  =>  {en-US}
+>  {english/hyphennames}  =>  {english,american,usenglish,USenglish}
+>  {english/direction}  =>  {LR}
+>  {english/hyphenmins}  =>  {2,3}
+>  {english/frenchspacing}  =>  {false}
+>  {english/indentfirst}  =>  {false}
+>  {english/fontsetup}  =>  {true}
+>  {english/envname}  =>  {english}
+>  {english/babelname}  =>  {american}
+>  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {french/script}  =>  {Latin}
+>  {french/lcscript}  =>  {latin}
+>  {french/scripttag}  =>  {}
+>  {french/language}  =>  {French}
+>  {french/langtag}  =>  {FRA}
+>  {french/bcp47}  =>  {fr-FR}
+>  {french/hyphennames}  =>  {french,francais}
+>  {french/direction}  =>  {LR}
+>  {french/hyphenmins}  =>  {2,2}
+>  {french/frenchspacing}  =>  {true}
+>  {french/indentfirst}  =>  {true}
+>  {french/fontsetup}  =>  {true}
+>  {french/envname}  =>  {french}
+>  {french/babelname}  =>  {french}
+>  {french/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {french/Localnumeral}  =>  {polyglossia@C@localnumeral}.
+\french@openbrackets=\XeTeXcharclass9
+\french@closebrackets=\XeTeXcharclass10
+\french@questionexclamation=\XeTeXcharclass11
+\french@punctthin=\XeTeXcharclass12
+\french@punctthick=\XeTeXcharclass13
+\french@punctguillstart=\XeTeXcharclass14
+\french@punctguillend=\XeTeXcharclass15
+LaTeX Info: Redefining \french@ttfamilyFB on input line 129.
+Package polyglossia Info: Option: French, variant=french.
+)
+Package polyglossia Info: Option: French, variant=french.
+Package polyglossia Info: Option: French, variant=french.
+Package polyglossia Info: Option: French, variant=french.
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/polyglossia/glo
+ss-it.ldf
+File: gloss-it.ldf polyglossia: module for it (italian)
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/polyglossia/glo
+ss-italian.ldf
+File: gloss-italian.ldf polyglossia: module for italian
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/script}  =>  {latin}
+>  {english/lcscript}  =>  {latin}
+>  {english/scripttag}  =>  {}
+>  {english/language}  =>  {English}
+>  {english/langtag}  =>  {ENG}
+>  {english/bcp47}  =>  {en-US}
+>  {english/hyphennames}  =>  {english,american,usenglish,USenglish}
+>  {english/direction}  =>  {LR}
+>  {english/hyphenmins}  =>  {2,3}
+>  {english/frenchspacing}  =>  {false}
+>  {english/indentfirst}  =>  {false}
+>  {english/fontsetup}  =>  {true}
+>  {english/envname}  =>  {english}
+>  {english/babelname}  =>  {american}
+>  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {french/script}  =>  {Latin}
+>  {french/lcscript}  =>  {latin}
+>  {french/scripttag}  =>  {}
+>  {french/language}  =>  {French}
+>  {french/langtag}  =>  {FRA}
+>  {french/bcp47}  =>  {fr-FR}
+>  {french/hyphennames}  =>  {french,francais}
+>  {french/direction}  =>  {LR}
+>  {french/hyphenmins}  =>  {2,2}
+>  {french/frenchspacing}  =>  {true}
+>  {french/indentfirst}  =>  {true}
+>  {french/fontsetup}  =>  {true}
+>  {french/envname}  =>  {french}
+>  {french/babelname}  =>  {french}
+>  {french/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {french/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {italian/script}  =>  {latin}
+>  {italian/lcscript}  =>  {latin}
+>  {italian/scripttag}  =>  {}
+>  {italian/language}  =>  {Italian}
+>  {italian/langtag}  =>  {ITA}
+>  {italian/bcp47}  =>  {it}
+>  {italian/hyphennames}  =>  {italian}
+>  {italian/direction}  =>  {LR}
+>  {italian/hyphenmins}  =>  {2,2}
+>  {italian/frenchspacing}  =>  {true}
+>  {italian/indentfirst}  =>  {true}
+>  {italian/fontsetup}  =>  {true}
+>  {italian/envname}  =>  {italian}
+>  {italian/babelname}  =>  {italian}
+>  {italian/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {italian/Localnumeral}  =>  {polyglossia@C@localnumeral}.
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/polyglossia/bab
+elsh.def
+File: babelsh.def 2019/09/30 Babel common definitions for shorthands
+ Taken verbatim from babel files (2019/09/27 v3.34)
+)
+Package polyglossia Info: Making " an active character on input line 33.
+))
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/biblat
+ex.sty
+Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pd
+ftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/infwarerr/inf
+warerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcm
+ds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kvoptions/kvopt
+ions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvsetkeys/kvs
+etkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/logreq/logreq.s
+ty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count356
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/logreq/logreq.d
+ef
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+) (c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count357
+\c@listtotal=\count358
+\c@listcount=\count359
+\c@liststart=\count360
+\c@liststop=\count361
+\c@citecount=\count362
+\c@citetotal=\count363
+\c@multicitecount=\count364
+\c@multicitetotal=\count365
+\c@instcount=\count366
+\c@maxnames=\count367
+\c@minnames=\count368
+\c@maxitems=\count369
+\c@minitems=\count370
+\c@citecounter=\count371
+\c@maxcitecounter=\count372
+\c@savedcitecounter=\count373
+\c@uniquelist=\count374
+\c@uniquename=\count375
+\c@refsection=\count376
+\c@refsegment=\count377
+\c@maxextratitle=\count378
+\c@maxextratitleyear=\count379
+\c@maxextraname=\count380
+\c@maxextradate=\count381
+\c@maxextraalpha=\count382
+\c@abbrvpenalty=\count383
+\c@highnamepenalty=\count384
+\c@lownamepenalty=\count385
+\c@maxparens=\count386
+\c@parenlevel=\count387
+\blx@tempcnta=\count388
+\blx@tempcntb=\count389
+\blx@tempcntc=\count390
+\c@blx@maxsection=\count391
+\c@blx@maxsegment@0=\count392
+\blx@notetype=\count393
+\blx@parenlevel@text=\count394
+\blx@parenlevel@foot=\count395
+\c@blx@sectionciteorder@0=\count396
+\blx@entrysetcounter=\count397
+\blx@biblioinstance=\count398
+\labelnumberwidth=\skip258
+\labelalphawidth=\skip259
+\biblabelsep=\skip260
+\bibnamesep=\skip261
+\bibinitsep=\skip262
+\bibparsep=\skip263
+\bibhang=\skip264
+\blx@bcfin=\read3
+\blx@bcfout=\write4
+\blx@langwohyphens=\language5
+\c@mincomprange=\count399
+\c@maxcomprange=\count400
+\c@mincompwidth=\count401
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/blx-dm
+.def
+File: blx-dm.def 2022/02/02 v3.17 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'authoryear-ibid.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count402
+\c@savedafterword=\count403
+\c@annotator=\count404
+\c@savedannotator=\count405
+\c@author=\count406
+\c@savedauthor=\count407
+\c@bookauthor=\count408
+\c@savedbookauthor=\count409
+\c@commentator=\count410
+\c@savedcommentator=\count411
+\c@editor=\count412
+\c@savededitor=\count413
+\c@editora=\count414
+\c@savededitora=\count415
+\c@editorb=\count416
+\c@savededitorb=\count417
+\c@editorc=\count418
+\c@savededitorc=\count419
+\c@foreword=\count420
+\c@savedforeword=\count421
+\c@holder=\count422
+\c@savedholder=\count423
+\c@introduction=\count424
+\c@savedintroduction=\count425
+\c@namea=\count426
+\c@savednamea=\count427
+\c@nameb=\count428
+\c@savednameb=\count429
+\c@namec=\count430
+\c@savednamec=\count431
+\c@translator=\count432
+\c@savedtranslator=\count433
+\c@shortauthor=\count434
+\c@savedshortauthor=\count435
+\c@shorteditor=\count436
+\c@savedshorteditor=\count437
+\c@labelname=\count438
+\c@savedlabelname=\count439
+\c@institution=\count440
+\c@savedinstitution=\count441
+\c@lista=\count442
+\c@savedlista=\count443
+\c@listb=\count444
+\c@savedlistb=\count445
+\c@listc=\count446
+\c@savedlistc=\count447
+\c@listd=\count448
+\c@savedlistd=\count449
+\c@liste=\count450
+\c@savedliste=\count451
+\c@listf=\count452
+\c@savedlistf=\count453
+\c@location=\count454
+\c@savedlocation=\count455
+\c@organization=\count456
+\c@savedorganization=\count457
+\c@origlocation=\count458
+\c@savedoriglocation=\count459
+\c@origpublisher=\count460
+\c@savedorigpublisher=\count461
+\c@publisher=\count462
+\c@savedpublisher=\count463
+\c@language=\count464
+\c@savedlanguage=\count465
+\c@origlanguage=\count466
+\c@savedoriglanguage=\count467
+\c@pageref=\count468
+\c@savedpageref=\count469
+\shorthandwidth=\skip265
+\shortjournalwidth=\skip266
+\shortserieswidth=\skip267
+\shorttitlewidth=\skip268
+\shortauthorwidth=\skip269
+\shorteditorwidth=\skip270
+\locallabelnumberwidth=\skip271
+\locallabelalphawidth=\skip272
+\localshorthandwidth=\skip273
+\localshortjournalwidth=\skip274
+\localshortserieswidth=\skip275
+\localshorttitlewidth=\skip276
+\localshortauthorwidth=\skip277
+\localshorteditorwidth=\skip278
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/blx-un
+icode.def)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/blx-co
+mpat.def
+File: blx-compat.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/biblat
+ex.def
+File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
+\c@textcitecount=\count470
+\c@textcitetotal=\count471
+\c@textcitemaxnames=\count472
+\c@biburlbigbreakpenalty=\count473
+\c@biburlbreakpenalty=\count474
+\c@biburlnumpenalty=\count475
+\c@biburlucpenalty=\count476
+\c@biburllcpenalty=\count477
+\biburlbigskip=\muskip19
+\biburlnumskip=\muskip20
+\biburlucskip=\muskip21
+\biburllcskip=\muskip22
+\c@smartand=\count478
+)
+Package biblatex Info: Trying to load bibliography style 'authoryear-ibid'...
+Package biblatex Info: ... file 'authoryear-ibid.bbx' found.
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/bbx/au
+thoryear-ibid.bbx
+File: authoryear-ibid.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.bbx' found.
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/bbx/au
+thoryear.bbx
+File: authoryear.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/bbx/st
+andard.bbx
+File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count479
+\c@bbx:relatedtotal=\count480
+)))
+Package biblatex Info: Trying to load citation style 'authoryear-ibid'...
+Package biblatex Info: ... file 'authoryear-ibid.cbx' found.
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/cbx/au
+thoryear-ibid.cbx
+File: authoryear-ibid.cbx 2022/02/02 v3.17 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/biblat
+ex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2022-02-24 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/blx-ca
+se-expl3.sty
+Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
+))
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/bclogo/bclogo.s
+ty
+Package: bclogo 2016/01/10 v3.1
+\bc@invboxh=\skip279
+\bc@invboxd=\skip280
+\bc@titleLength=\skip281
+\logowidth=\skip282
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/frontendlay
+er/tikz.sty
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/
+pgf.sty
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/utilities/p
+gfrcs.sty
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities
+/pgfutil-common.tex
+\pgfutil@everybye=\toks43
+\pgfutil@tempdima=\dimen271
+\pgfutil@tempdimb=\dimen272
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities
+/pgfutil-common-lists.tex))
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities
+/pgfutil-latex.def
+\pgfutil@abb=\box72
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities
+/pgfrcs.code.tex
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/pgf.revis
+ion.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/
+pgfcore.sty
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/systemlayer
+/pgfsys.sty
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlay
+er/pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities
+/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks44
+\pgfkeys@temptoks=\toks45
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities
+/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks46
+))
+\pgf@x=\dimen273
+\pgf@y=\dimen274
+\pgf@xa=\dimen275
+\pgf@ya=\dimen276
+\pgf@xb=\dimen277
+\pgf@yb=\dimen278
+\pgf@xc=\dimen279
+\pgf@yc=\dimen280
+\pgf@xd=\dimen281
+\pgf@yd=\dimen282
+\w@pgf@writea=\write5
+\r@pgf@reada=\read4
+\c@pgf@counta=\count481
+\c@pgf@countb=\count482
+\c@pgf@countc=\count483
+\c@pgf@countd=\count484
+\t@pgf@toka=\toks47
+\t@pgf@tokb=\toks48
+\t@pgf@tokc=\toks49
+\pgf@sys@id@count=\count485
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlay
+er/pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-xetex.def
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlay
+er/pgfsys-xetex.def
+File: pgfsys-xetex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlay
+er/pgfsys-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlay
+er/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)
+\pgfsys@objnum=\count486
+)))
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlay
+er/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count487
+\pgfsyssoftpath@bigbuffer@items=\count488
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlay
+er/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+ath.code.tex
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athcalc.code.tex
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athutil.code.tex)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athparser.code.tex
+\pgfmath@dimen=\dimen283
+\pgfmath@count=\count489
+\pgfmath@box=\box73
+\pgfmath@toks=\toks50
+\pgfmath@stack@operand=\toks51
+\pgfmath@stack@operation=\toks52
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.code.tex
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.basic.code.tex)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.trigonometric.code.tex)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.random.code.tex)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.comparison.code.tex)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.base.code.tex)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.round.code.tex)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.misc.code.tex)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.integerarithmetics.code.tex)))
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count490
+))
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfi
+nt.code.tex)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen284
+\pgf@picmaxx=\dimen285
+\pgf@picminy=\dimen286
+\pgf@picmaxy=\dimen287
+\pgf@pathminx=\dimen288
+\pgf@pathmaxx=\dimen289
+\pgf@pathminy=\dimen290
+\pgf@pathmaxy=\dimen291
+\pgf@xx=\dimen292
+\pgf@xy=\dimen293
+\pgf@yx=\dimen294
+\pgf@yy=\dimen295
+\pgf@zx=\dimen296
+\pgf@zy=\dimen297
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen298
+\pgf@path@lasty=\dimen299
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen300
+\pgf@shorten@start@additional=\dimen301
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box74
+\pgf@hbox=\box75
+\pgf@layerbox@main=\box76
+\pgf@picture@serial@count=\count491
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen302
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen303
+\pgf@pt@y=\dimen304
+\pgf@pt@temp=\dimen305
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen306
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen307
+\pgf@sys@shading@range@num=\count492
+\pgf@shadingcount=\count493
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box77
+))
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/p
+gfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box78
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/p
+gfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/compatibili
+ty/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen308
+\pgf@nodesepend=\dimen309
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/compatibili
+ty/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+))
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/utilities/p
+gffor.sty
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/utilities/p
+gfkeys.sty
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities
+/pgfkeys.code.tex))
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/math/pgfmat
+h.sty
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+ath.code.tex))
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities
+/pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+ath.code.tex)
+\pgffor@iter=\dimen310
+\pgffor@skip=\dimen311
+\pgffor@stack=\toks53
+\pgffor@toks=\toks54
+))
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendl
+ayer/tikz/tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries
+/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count494
+\pgfplotmarksize=\dimen312
+)
+\tikz@lastx=\dimen313
+\tikz@lasty=\dimen314
+\tikz@lastxsaved=\dimen315
+\tikz@lastysaved=\dimen316
+\tikz@lastmovetox=\dimen317
+\tikz@lastmovetoy=\dimen318
+\tikzleveldistance=\dimen319
+\tikzsiblingdistance=\dimen320
+\tikz@figbox=\box79
+\tikz@figbox@bg=\box80
+\tikz@tempbox=\box81
+\tikz@tempbox@bg=\box82
+\tikztreelevel=\count495
+\tikznumberofchildren=\count496
+\tikznumberofcurrentchild=\count497
+\tikz@fig@count=\count498
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/p
+gfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count499
+\pgfmatrixcurrentcolumn=\count500
+\pgf@matrix@numberofcolumns=\count501
+)
+\tikz@expandcount=\count502
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendl
+ayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/mdframed/mdfram
+ed.sty
+Package: mdframed 2013/07/01 1.9b: mdframed
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/zref/zref-abspa
+ge.sty
+Package: zref-abspage 2020-07-03 v2.32 Module abspage for zref (HO)
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/zref/zref-base.
+sty
+Package: zref-base 2020-07-03 v2.32 Module base for zref (HO)
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/
+kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/etexcmds/etex
+cmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/auxhook/auxhook
+.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 764.
+Package zref Info: New property: default on input line 765.
+Package zref Info: New property: page on input line 766.
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atbegshi-l
+tx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\c@abspage=\count503
+Package zref Info: New property: abspage on input line 66.
+)
+\mdf@templength=\skip283
+\c@mdf@globalstyle@cnt=\count504
+\mdf@skipabove@length=\skip284
+\mdf@skipbelow@length=\skip285
+\mdf@leftmargin@length=\skip286
+\mdf@rightmargin@length=\skip287
+\mdf@innerleftmargin@length=\skip288
+\mdf@innerrightmargin@length=\skip289
+\mdf@innertopmargin@length=\skip290
+\mdf@innerbottommargin@length=\skip291
+\mdf@splittopskip@length=\skip292
+\mdf@splitbottomskip@length=\skip293
+\mdf@outermargin@length=\skip294
+\mdf@innermargin@length=\skip295
+\mdf@linewidth@length=\skip296
+\mdf@innerlinewidth@length=\skip297
+\mdf@middlelinewidth@length=\skip298
+\mdf@outerlinewidth@length=\skip299
+\mdf@roundcorner@length=\skip300
+\mdf@footenotedistance@length=\skip301
+\mdf@userdefinedwidth@length=\skip302
+\mdf@needspace@length=\skip303
+\mdf@frametitleaboveskip@length=\skip304
+\mdf@frametitlebelowskip@length=\skip305
+\mdf@frametitlerulewidth@length=\skip306
+\mdf@frametitleleftmargin@length=\skip307
+\mdf@frametitlerightmargin@length=\skip308
+\mdf@shadowsize@length=\skip309
+\mdf@extratopheight@length=\skip310
+\mdf@subtitleabovelinewidth@length=\skip311
+\mdf@subtitlebelowlinewidth@length=\skip312
+\mdf@subtitleaboveskip@length=\skip313
+\mdf@subtitlebelowskip@length=\skip314
+\mdf@subtitleinneraboveskip@length=\skip315
+\mdf@subtitleinnerbelowskip@length=\skip316
+\mdf@subsubtitleabovelinewidth@length=\skip317
+\mdf@subsubtitlebelowlinewidth@length=\skip318
+\mdf@subsubtitleaboveskip@length=\skip319
+\mdf@subsubtitlebelowskip@length=\skip320
+\mdf@subsubtitleinneraboveskip@length=\skip321
+\mdf@subsubtitleinnerbelowskip@length=\skip322
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/mdframed/md-fra
+me-1.mdf
+File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
+)
+\mdf@frametitlebox=\box83
+\mdf@footnotebox=\box84
+\mdf@splitbox@one=\box85
+\mdf@splitbox@two=\box86
+\mdf@splitbox@save=\box87
+\mdfsplitboxwidth=\skip323
+\mdfsplitboxtotalwidth=\skip324
+\mdfsplitboxheight=\skip325
+\mdfsplitboxdepth=\skip326
+\mdfsplitboxtotalheight=\skip327
+\mdfframetitleboxwidth=\skip328
+\mdfframetitleboxtotalwidth=\skip329
+\mdfframetitleboxheight=\skip330
+\mdfframetitleboxdepth=\skip331
+\mdfframetitleboxtotalheight=\skip332
+\mdffootnoteboxwidth=\skip333
+\mdffootnoteboxtotalwidth=\skip334
+\mdffootnoteboxheight=\skip335
+\mdffootnoteboxdepth=\skip336
+\mdffootnoteboxtotalheight=\skip337
+\mdftotallinewidth=\skip338
+\mdfboundingboxwidth=\skip339
+\mdfboundingboxtotalwidth=\skip340
+\mdfboundingboxheight=\skip341
+\mdfboundingboxdepth=\skip342
+\mdfboundingboxtotalheight=\skip343
+\mdf@freevspace@length=\skip344
+\mdf@horizontalwidthofbox@length=\skip345
+\mdf@verticalmarginwhole@length=\skip346
+\mdf@horizontalspaceofbox=\skip347
+\mdfsubtitleheight=\skip348
+\mdfsubsubtitleheight=\skip349
+\c@mdfcountframes=\count505
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+\mdf@envdepth=\count506
+\c@mdf@env@i=\count507
+\c@mdf@env@ii=\count508
+\c@mdf@zref@counter=\count509
+Package zref Info: New property: mdf@pagevalue on input line 895.
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendl
+ayer/tikz/libraries/tikzlibraryshadows.code.tex
+File: tikzlibraryshadows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendl
+ayer/tikz/libraries/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries
+/pgflibraryfadings.code.tex
+File: pgflibraryfadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendl
+ayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendl
+ayer/tikz/libraries/tikzlibrarydecorations.code.tex
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/p
+gfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen321
+\pgfdecoratedremainingdistance=\dimen322
+\pgfdecoratedinputsegmentcompleteddistance=\dimen323
+\pgfdecoratedinputsegmentremainingdistance=\dimen324
+\pgf@decorate@distancetomove=\dimen325
+\pgf@decorate@repeatstate=\count510
+\pgfdecorationsegmentamplitude=\dimen326
+\pgfdecorationsegmentlength=\dimen327
+)
+\tikz@lib@dec@box=\box88
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries
+/decorations/pgflibrarydecorations.pathmorphing.code.tex))
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifpdf.s
+ty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+Invalid UTF-8 byte or sequence at line 164 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 164 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 201 replaced by U+FFFD.
+\c@bclogocompteur=\count511
+\bcval@epBarre=\skip350
+\bcval@framesep=\skip351
+\bcval@tailleOndu=\skip352
+\bcval@borderWidth=\skip353
+Invalid UTF-8 byte or sequence at line 216 replaced by U+FFFD.
+\bcval@margeG=\skip354
+Invalid UTF-8 byte or sequence at line 217 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 217 replaced by U+FFFD.
+\bcval@margeD=\skip355
+\bc@envbox=\box89
+Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 454 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 454 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 454 replaced by U+FFFD.
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/marginfix/margi
+nfix.sty
+Package: marginfix 2020/05/06 v1.2 Fix Margin Paragraphs
+\Mfx@inject@insert=\insert247
+\Mfx@marginbox=\box90
+\Mfx@marginpos@min=\dimen328
+\Mfx@marginpos@max=\dimen329
+\Mfx@marginspace=\dimen330
+\Mfx@marginheight=\dimen331
+\Mfx@piece@content=\box91
+\Mfx@piece@count=\count512
+\Mfx@mparshift=\dimen332
+\marginheightadjustment=\dimen333
+\marginposadjustment=\dimen334
+\Mfx@strutheight=\dimen335
+) (c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/calc.st
+y
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count513
+\calc@Bcount=\count514
+\calc@Adimen=\dimen336
+\calc@Bdimen=\dimen337
+\calc@Askip=\skip356
+\calc@Bskip=\skip357
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count515
+\calc@Cskip=\skip358
+)
+\widthw=\skip359
+\rf=\skip360
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/textpos/textpos
+.sty
+Package: textpos 2020/09/26 v1.10
+Package: textpos 2020/09/26 1.10, absolute positioning of text on the page
+Package textpos Info: choosing support for LaTeX3 on input line 61.
+\TP@textbox=\box92
+\TP@holdbox=\box93
+\TPHorizModule=\dimen338
+\TPVertModule=\dimen339
+\TP@margin=\dimen340
+\TP@absmargin=\dimen341
+Grid set 16 x 16 = 37.34424pt x 52.81541pt
+\TPboxrulesize=\dimen342
+\TP@ox=\dimen343
+\TP@oy=\dimen344
+\TP@tbargs=\toks55
+TextBlockOrigin set to 0pt x 0pt
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdfpages/pdfpag
+es.sty
+Package: pdfpages 2022/01/29 v0.5u Insert pages of external PDF documents (AM)
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/eso-pic/eso-pic
+.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen345
+\ESO@tempdimb=\dimen346
+)
+\AM@pagewidth=\dimen347
+\AM@pageheight=\dimen348
+\AM@fboxrule=\dimen349
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdfpages/ppxete
+x.def
+File: ppxetex.def 2022/01/29 v0.5u Pdfpages driver for XeTeX (AM)
+)
+\pdfpages@includegraphics@status=\count516
+\AM@pagebox=\box94
+\AM@global@opts=\toks56
+\AM@pagecnt=\count517
+\AM@toc@title=\toks57
+\c@AM@survey=\count518
+\AM@templatesizebox=\box95
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/csquotes/csquot
+es.sty
+Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
+\csq@reset=\count519
+\csq@gtype=\count520
+\csq@glevel=\count521
+\csq@qlevel=\count522
+\csq@maxlvl=\count523
+\csq@tshold=\count524
+\csq@ltx@everypar=\toks58
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/csquotes/csquot
+es.def
+File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/csquotes/csquot
+es.cfg
+File: csquotes.cfg 
+)
+Package csquotes Info: Enabling strict warnings.
+Package csquotes Info: Enabling multilingual quotes.
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperr
+ef.sty
+Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdfescape/pdf
+escape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor
+.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/letltxmacro/let
+ltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+\@linkdim=\dimen350
+\Hy@linkcounter=\count525
+\Hy@pagecounter=\count526
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc
+.def
+File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/intcalc/intca
+lc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count527
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.
+def
+File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4018.
+Package hyperref Info: Hyper figures OFF on input line 4137.
+Package hyperref Info: Link nesting OFF on input line 4142.
+Package hyperref Info: Hyper index ON on input line 4145.
+Package hyperref Info: Plain pages OFF on input line 4152.
+Package hyperref Info: Backreferencing OFF on input line 4157.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4390.
+\c@Hy@tempcnt=\count528
+LaTeX Info: Redefining \url on input line 4749.
+\XeTeXLinkMargin=\dimen351
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bitset/bitset
+.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bigintcalc/bi
+gintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count529
+\Field@Width=\dimen352
+\Fld@charsize=\dimen353
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+LaTeX Info: Redefining \ref on input line 6097.
+LaTeX Info: Redefining \pageref on input line 6101.
+\Hy@abspage=\count530
+\c@Item=\count531
+\c@Hfootnote=\count532
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/memoir/memhfixc
+.sty
+Package: memhfixc 2021/06/16 v1.19 nameref/hyperref package fixes for memoir cl
+ass
+\c@memhycontfloat=\count533
+\c@Hpagenote=\count534
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hxetex
+.def
+File: hxetex.def 2022-02-21 v7.00n Hyperref driver for XeTeX
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/stringenc/str
+ingenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box96
+\c@Hy@AnnotLevel=\count535
+\HyField@AnnotCount=\count536
+\Fld@listcount=\count537
+\c@bookmark@seq@number=\count538
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/
+rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atveryend-
+ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/uniquecounter
+/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip361
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 311.
+Package hyperref Info: Option `breaklinks' set `true' on input line 311.
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'polyglossia' package.
+(./MyBook.aux
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 23.
+LaTeX Info: Redefining \sffamily on input line 23.
+LaTeX Info: Redefining \ttfamily on input line 23.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 76.
+LaTeX Info: Redefining \sffamily on input line 76.
+LaTeX Info: Redefining \ttfamily on input line 76.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 80.
+LaTeX Info: Redefining \sffamily on input line 80.
+LaTeX Info: Redefining \ttfamily on input line 80.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+)
+\openout1 = `MyBook.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 331.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 331.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 331.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 331.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 331.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 331.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 331.
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(0)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,BoldFont={latinmodern-math.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999970497384594]"[latinmodern-math.otf]/OT:scri
+pt=math;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999970497384594]"[latinmodern-math.otf]/OT:scri
+pt=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 331.
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(1)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,SizeFeatures={{Size=10.2-},{Size=7.2-10.2,Font=latin
+modern-math.otf,Style=MathScript},{Size=-7.2,Font=latinmodern-math.otf,Style=Ma
+thScriptScript}},BoldFont={latinmodern-math.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <10.2->s*[0.9999970497384594]"[latinmodern-math.otf]/OT:
+script=math;language=dflt;"<7.2-10.2>s*[0.9999970497384594]"[latinmodern-math.o
+tf]/OT:script=math;language=dflt;+ssty=0;"<-7.2>s*[0.9999970497384594]"[latinmo
+dern-math.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999970497384594]"[latinmodern-math.otf]/OT:scri
+pt=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 331.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 331.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
+ line 331.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 331.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
+t line 331.
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000097049443433.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000097049443433.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000097049443433.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000097049443433.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000097049443433.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(2)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,SizeFeatures={{Size=10.2-},{Size=7.2-10.2,Font=latin
+modern-math.otf,Style=MathScript},{Size=-7.2,Font=latinmodern-math.otf,Style=Ma
+thScriptScript}},BoldFont={latinmodern-math.otf},ScaleAgain=1.0001,FontAdjustme
+nt={\fontdimen
+(fontspec)             8\font =8.124pt\relax \fontdimen 9\font =4.728pt\relax
+(fontspec)             \fontdimen 10\font =5.328pt\relax \fontdimen 11\font
+(fontspec)             =8.232pt\relax \fontdimen 12\font =4.14pt\relax
+(fontspec)             \fontdimen 13\font =4.356pt\relax \fontdimen 14\font
+(fontspec)             =4.356pt\relax \fontdimen 15\font =3.468pt\relax
+(fontspec)             \fontdimen 16\font =2.964pt\relax \fontdimen 17\font
+(fontspec)             =2.964pt\relax \fontdimen 18\font =3.0pt\relax
+(fontspec)             \fontdimen 19\font =2.4pt\relax \fontdimen 22\font
+(fontspec)             =3.0pt\relax \fontdimen 20\font =0pt\relax \fontdimen
+(fontspec)             21\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <10.2->s*[1.000097049443433]"[latinmodern-math.otf]/OT:s
+cript=math;language=dflt;"<7.2-10.2>s*[1.000097049443433]"[latinmodern-math.otf
+]/OT:script=math;language=dflt;+ssty=0;"<-7.2>s*[1.000097049443433]"[latinmoder
+n-math.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =8.124pt\relax \fontdimen 9\font
+(fontspec)             =4.728pt\relax \fontdimen 10\font =5.328pt\relax
+(fontspec)             \fontdimen 11\font =8.232pt\relax \fontdimen 12\font
+(fontspec)             =4.14pt\relax \fontdimen 13\font =4.356pt\relax
+(fontspec)             \fontdimen 14\font =4.356pt\relax \fontdimen 15\font
+(fontspec)             =3.468pt\relax \fontdimen 16\font =2.964pt\relax
+(fontspec)             \fontdimen 17\font =2.964pt\relax \fontdimen 18\font
+(fontspec)             =3.0pt\relax \fontdimen 19\font =2.4pt\relax \fontdimen
+(fontspec)             22\font =3.0pt\relax \fontdimen 20\font =0pt\relax
+(fontspec)             \fontdimen 21\font =0pt\relax 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1.000097049443433]"[latinmodern-math.otf]/OT:scrip
+t=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =8.124pt\relax \fontdimen 9\font
+(fontspec)             =4.728pt\relax \fontdimen 10\font =5.328pt\relax
+(fontspec)             \fontdimen 11\font =8.232pt\relax \fontdimen 12\font
+(fontspec)             =4.14pt\relax \fontdimen 13\font =4.356pt\relax
+(fontspec)             \fontdimen 14\font =4.356pt\relax \fontdimen 15\font
+(fontspec)             =3.468pt\relax \fontdimen 16\font =2.964pt\relax
+(fontspec)             \fontdimen 17\font =2.964pt\relax \fontdimen 18\font
+(fontspec)             =3.0pt\relax \fontdimen 19\font =2.4pt\relax \fontdimen
+(fontspec)             22\font =3.0pt\relax \fontdimen 20\font =0pt\relax
+(fontspec)             \fontdimen 21\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 331.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
+t line 331.
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 331.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
+t line 331.
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998970500334856.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998970500334856.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998970500334856.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998970500334856.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999970497384594.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998970500334856.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(3)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,SizeFeatures={{Size=10.2-},{Size=7.2-10.2,Font=latin
+modern-math.otf,Style=MathScript},{Size=-7.2,Font=latinmodern-math.otf,Style=Ma
+thScriptScript}},BoldFont={latinmodern-math.otf},ScaleAgain=0.9999,FontAdjustme
+nt={\fontdimen
+(fontspec)             8\font =0.48pt\relax \fontdimen 9\font =2.4pt\relax
+(fontspec)             \fontdimen 10\font =2.004pt\relax \fontdimen 11\font
+(fontspec)             =1.332pt\relax \fontdimen 12\font =7.2pt\relax
+(fontspec)             \fontdimen 13\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <10.2->s*[0.9998970500334856]"[latinmodern-math.otf]/OT:
+script=math;language=dflt;"<7.2-10.2>s*[0.9998970500334856]"[latinmodern-math.o
+tf]/OT:script=math;language=dflt;+ssty=0;"<-7.2>s*[0.9998970500334856]"[latinmo
+dern-math.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =0.48pt\relax \fontdimen 9\font
+(fontspec)             =2.4pt\relax \fontdimen 10\font =2.004pt\relax
+(fontspec)             \fontdimen 11\font =1.332pt\relax \fontdimen 12\font
+(fontspec)             =7.2pt\relax \fontdimen 13\font =0pt\relax 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9998970500334856]"[latinmodern-math.otf]/OT:scri
+pt=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =0.48pt\relax \fontdimen 9\font
+(fontspec)             =2.4pt\relax \fontdimen 10\font =2.004pt\relax
+(fontspec)             \fontdimen 11\font =1.332pt\relax \fontdimen 12\font
+(fontspec)             =7.2pt\relax \fontdimen 13\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 3
+31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
+t line 331.
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 331
+.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
+t line 331.
+LaTeX Info: Redefining \microtypecontext on input line 331.
+Package microtype Info: Applying patch `item' on input line 331.
+Package microtype Info: Applying patch `toc' on input line 331.
+Package microtype Info: Applying patch `eqnum' on input line 331.
+Package microtype Info: Applying patch `footnote' on input line 331.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using protrusion set `basicmath'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-La
+tinModernRoman.cfg
+File: mt-LatinModernRoman.cfg 2021/02/21 v1.1 microtype config. file: Latin Mod
+ern Roman (RS)
+)
+Package biblatex Info: Trying to load language 'american'...
+Package biblatex Info: ... file 'american.lbx' found.
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/lbx/am
+erican.lbx
+File: american.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/lbx/en
+glish.lbx
+File: english.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/lbx/en
+glish.lbx
+File: english.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+))
+Package biblatex Info: Trying to load language 'french'...
+Package biblatex Info: ... file 'french.lbx' found.
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/lbx/fr
+ench.lbx
+File: french.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'italian'...
+Package biblatex Info: ... file 'italian.lbx' found.
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/lbx/it
+alian.lbx
+File: italian.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+)
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout4 = `MyBook.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'MyBook.bbl' found.
+(./MyBook.bbl)
+Package biblatex Info: Reference section=0 on input line 331.
+Package biblatex Info: Reference segment=0 on input line 331.
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdflscape/pdfls
+cape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/lscape
+.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
+
+)
+Package hyperref Info: Link coloring ON on input line 331.
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/namere
+f.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/refcount/refcou
+nt.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/gettitlestrin
+g/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count539
+)
+Redoing nameref's sectioning
+Redoing nameref's label
+LaTeX Info: Redefining \nameref on input line 331.
+LaTeX Info: Redefining \ref on input line 331.
+LaTeX Info: Redefining \pageref on input line 331.
+LaTeX Info: Redefining \nameref on input line 331.
+(./MyBook.out) (./MyBook.out)
+\@outlinefile=\write6
+\openout6 = `MyBook.out'.
+
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 331.
+LaTeX Info: Redefining \sffamily on input line 331.
+LaTeX Info: Redefining \ttfamily on input line 331.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+File: images/cover.pdf Graphic file (type pdf)
+<use images/cover.pdf>
+File: images/cover.pdf Graphic file (type pdf)
+<use images/cover.pdf>
+File: images/cover.pdf Graphic file (type pdf)
+<use images/cover.pdf, page 1>
+File: images/cover.pdf Graphic file (type pdf)
+<use images/cover.pdf, page 1>
+File: images/cover.pdf Graphic file (type pdf)
+<use images/cover.pdf, page 1>
+File: images/cover.pdf Graphic file (type pdf)
+<use images/cover.pdf, page 1>
+File: images/cover.pdf Graphic file (type pdf)
+<use images/cover.pdf, page 1>
+[1
+
+
+] [2
+
+]
+
+******************************************************
+Stock height and width: 845.04684pt by 597.50787pt
+Top and edge trims: 0pt and 0pt
+Page height and width: 845.04684pt by 597.50787pt
+Text height and width: 664.5pt by 380pt
+Spine and edge margins: 108.405pt and 108.405pt
+Upper and lower margins: 108.405pt and 72.14185pt
+Headheight and headsep: 14.5pt and 19.8738pt
+Footskip: 30pt
+Columnsep and columnseprule: 10pt and 0pt
+Marginparsep and marginparwidth: 7.22743pt and 7.22743pt
+Sidecapsep and sidecapwidth: 7pt and 92pt
+Sidebarhsep and sidebarwidth: 7pt and 92pt
+Sidebarvsep and sidebartopsep: 14.5pt and 0pt
+Sidebarheight: 590.14995pt
+Sidefoothsep and sidefootwidth: 7pt and 92pt
+Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
+******************************************************
+
+
+Overfull \hbox (12.93422pt too wide) in paragraph at lines 351--351
+[][] 
+ []
+
+LaTeX Font Info:    Trying to load font information for TU+qtm on input line 35
+1.
+LaTeX Font Info:    No file TUqtm.fd. on input line 351.
+
+LaTeX Font Warning: Font shape `TU/qtm/m/n' undefined
+(Font)              using `TU/lmr/m/n' instead on input line 351.
+
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-pt
+m.cfg
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+)
+
+LaTeX Font Warning: Font shape `TU/qtm/m/sc' undefined
+(Font)              using `TU/qtm/m/n' instead on input line 351.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+
+ []
+
+[3
+
+]
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 8.4pt on input line 351.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 351.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
+51.
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 12.0011pt on input line 351.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 8.40076pt on input line 351.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 6.00055pt on input line 351.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 11.99872pt on input line 351.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 8.3991pt on input line 351.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.99936pt on input line 351.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 351
+.
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.f
+d
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-ms
+a.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 351
+.
+
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.f
+d
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(c:/Users/huguenin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-ms
+b.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+File: images//logo.pdf Graphic file (type pdf)
+<use images//logo.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+
+ []
+
+[4]
+
+******************************************************
+Stock height and width: 845.04684pt by 597.50787pt
+Top and edge trims: 0pt and 0pt
+Page height and width: 845.04684pt by 597.50787pt
+Text height and width: 664.5pt by 380pt
+Spine and edge margins: 108.405pt and 108.405pt
+Upper and lower margins: 108.405pt and 72.14185pt
+Headheight and headsep: 14.5pt and 19.8738pt
+Footskip: 30pt
+Columnsep and columnseprule: 10pt and 0pt
+Marginparsep and marginparwidth: 7.22743pt and 7.22743pt
+Sidecapsep and sidecapwidth: 7pt and 92pt
+Sidebarhsep and sidebarwidth: 7pt and 92pt
+Sidebarvsep and sidebartopsep: 14.5pt and 0pt
+Sidebarheight: 590.14995pt
+Sidefoothsep and sidefootwidth: 7pt and 92pt
+Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
+******************************************************
+
+
+LaTeX Font Warning: Font shape `TU/lmr/bx/sc' undefined
+(Font)              using `TU/lmr/bx/n' instead on input line 369.
+
+(./MyBook.toc
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 1.
+LaTeX Info: Redefining \sffamily on input line 1.
+LaTeX Info: Redefining \ttfamily on input line 1.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 24.
+LaTeX Info: Redefining \sffamily on input line 24.
+LaTeX Info: Redefining \ttfamily on input line 24.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 25.
+LaTeX Info: Redefining \sffamily on input line 25.
+LaTeX Info: Redefining \ttfamily on input line 25.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+)
+
+******************************************************
+Stock height and width: 845.04684pt by 597.50787pt
+Top and edge trims: 0pt and 0pt
+Page height and width: 845.04684pt by 597.50787pt
+Text height and width: 664.5pt by 380pt
+Spine and edge margins: 108.405pt and 108.405pt
+Upper and lower margins: 108.405pt and 72.14185pt
+Headheight and headsep: 14.5pt and 19.8738pt
+Footskip: 30pt
+Columnsep and columnseprule: 10pt and 0pt
+Marginparsep and marginparwidth: 7.22743pt and 7.22743pt
+Sidecapsep and sidecapwidth: 7pt and 92pt
+Sidebarhsep and sidebarwidth: 7pt and 92pt
+Sidebarvsep and sidebartopsep: 14.5pt and 0pt
+Sidebarheight: 590.14995pt
+Sidefoothsep and sidefootwidth: 7pt and 92pt
+Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
+******************************************************
+
+[5
+
+] [6
+
+
+] [7] [8
+
+] [9] [10
+
+] [11] [12]
+
+******************************************************
+Stock height and width: 845.04684pt by 597.50787pt
+Top and edge trims: 0pt and 0pt
+Page height and width: 845.04684pt by 597.50787pt
+Text height and width: 664.5pt by 380pt
+Spine and edge margins: 108.405pt and 108.405pt
+Upper and lower margins: 108.405pt and 72.14185pt
+Headheight and headsep: 14.5pt and 19.8738pt
+Footskip: 30pt
+Columnsep and columnseprule: 10pt and 0pt
+Marginparsep and marginparwidth: 7.22743pt and 7.22743pt
+Sidecapsep and sidecapwidth: 7pt and 92pt
+Sidebarhsep and sidebarwidth: 7pt and 92pt
+Sidebarvsep and sidebartopsep: 14.5pt and 0pt
+Sidebarheight: 590.14995pt
+Sidefoothsep and sidefootwidth: 7pt and 92pt
+Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
+******************************************************
+
+
+LaTeX Warning: Empty bibliography on input line 459.
+
+
+******************************************************
+Stock height and width: 845.04684pt by 597.50787pt
+Top and edge trims: 0pt and 0pt
+Page height and width: 845.04684pt by 597.50787pt
+Text height and width: 664.5pt by 380pt
+Spine and edge margins: 108.405pt and 108.405pt
+Upper and lower margins: 108.405pt and 72.14185pt
+Headheight and headsep: 14.5pt and 19.8738pt
+Footskip: 30pt
+Columnsep and columnseprule: 10pt and 0pt
+Marginparsep and marginparwidth: 7.22743pt and 7.22743pt
+Sidecapsep and sidecapwidth: 7pt and 92pt
+Sidebarhsep and sidebarwidth: 7pt and 92pt
+Sidebarvsep and sidebartopsep: 14.5pt and 0pt
+Sidebarheight: 590.14995pt
+Sidefoothsep and sidefootwidth: 7pt and 92pt
+Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
+******************************************************
+
+(./MyBook.lof
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 1.
+LaTeX Info: Redefining \sffamily on input line 1.
+LaTeX Info: Redefining \ttfamily on input line 1.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 5.
+LaTeX Info: Redefining \sffamily on input line 5.
+LaTeX Info: Redefining \ttfamily on input line 5.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 6.
+LaTeX Info: Redefining \sffamily on input line 6.
+LaTeX Info: Redefining \ttfamily on input line 6.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+) [13
+
+
+
+
+
+]
+
+******************************************************
+Stock height and width: 845.04684pt by 597.50787pt
+Top and edge trims: 0pt and 0pt
+Page height and width: 845.04684pt by 597.50787pt
+Text height and width: 664.5pt by 380pt
+Spine and edge margins: 108.405pt and 108.405pt
+Upper and lower margins: 108.405pt and 72.14185pt
+Headheight and headsep: 14.5pt and 19.8738pt
+Footskip: 30pt
+Columnsep and columnseprule: 10pt and 0pt
+Marginparsep and marginparwidth: 7.22743pt and 7.22743pt
+Sidecapsep and sidecapwidth: 7pt and 92pt
+Sidebarhsep and sidebarwidth: 7pt and 92pt
+Sidebarvsep and sidebartopsep: 14.5pt and 0pt
+Sidebarheight: 590.14995pt
+Sidefoothsep and sidefootwidth: 7pt and 92pt
+Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
+******************************************************
+
+LaTeX Info: Redefining \rmfamily on input line 490.
+LaTeX Info: Redefining \sffamily on input line 490.
+LaTeX Info: Redefining \ttfamily on input line 490.
+
+Underfull \hbox (badness 10000) in paragraph at lines 496--498
+
+ []
+
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 499.
+LaTeX Info: Redefining \sffamily on input line 499.
+LaTeX Info: Redefining \ttfamily on input line 499.
+Package polyglossia Info: Option: English, variant=american.
+File: images/logo.pdf Graphic file (type pdf)
+<use images/logo.pdf>
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/script}  =>  {latin}
+>  {english/lcscript}  =>  {latin}
+>  {english/scripttag}  =>  {}
+>  {english/language}  =>  {English}
+>  {english/langtag}  =>  {ENG}
+>  {english/bcp47}  =>  {en-US}
+>  {english/hyphennames}  =>  {english,american,usenglish,USenglish}
+>  {english/direction}  =>  {LR}
+>  {english/hyphenmins}  =>  {2,3}
+>  {english/frenchspacing}  =>  {false}
+>  {english/indentfirst}  =>  {false}
+>  {english/fontsetup}  =>  {true}
+>  {english/envname}  =>  {english}
+>  {english/babelname}  =>  {american}
+>  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {french/script}  =>  {Latin}
+>  {french/lcscript}  =>  {latin}
+>  {french/scripttag}  =>  {}
+>  {french/language}  =>  {French}
+>  {french/langtag}  =>  {FRA}
+>  {french/bcp47}  =>  {fr-FR}
+>  {french/hyphennames}  =>  {french,francais}
+>  {french/direction}  =>  {LR}
+>  {french/hyphenmins}  =>  {2,2}
+>  {french/frenchspacing}  =>  {true}
+>  {french/indentfirst}  =>  {true}
+>  {french/fontsetup}  =>  {true}
+>  {french/envname}  =>  {french}
+>  {french/babelname}  =>  {french}
+>  {french/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {french/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {italian/script}  =>  {latin}
+>  {italian/lcscript}  =>  {latin}
+>  {italian/scripttag}  =>  {}
+>  {italian/language}  =>  {Italian}
+>  {italian/langtag}  =>  {ITA}
+>  {italian/bcp47}  =>  {it}
+>  {italian/hyphennames}  =>  {italian}
+>  {italian/direction}  =>  {LR}
+>  {italian/hyphenmins}  =>  {2,2}
+>  {italian/frenchspacing}  =>  {true}
+>  {italian/indentfirst}  =>  {true}
+>  {italian/fontsetup}  =>  {true}
+>  {italian/envname}  =>  {italian}
+>  {italian/babelname}  =>  {italian}
+>  {italian/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {italian/Localnumeral}  =>  {polyglossia@C@localnumeral}.
+[14
+
+
+]
+\tf@toc=\write7
+\openout7 = `MyBook.toc'.
+
+\tf@lof=\write8
+\openout8 = `MyBook.lof'.
+
+(./MyBook.aux
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 23.
+LaTeX Info: Redefining \sffamily on input line 23.
+LaTeX Info: Redefining \ttfamily on input line 23.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 76.
+LaTeX Info: Redefining \sffamily on input line 76.
+LaTeX Info: Redefining \ttfamily on input line 76.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+LaTeX Info: Redefining \rmfamily on input line 80.
+LaTeX Info: Redefining \sffamily on input line 80.
+LaTeX Info: Redefining \ttfamily on input line 80.
+Package polyglossia Info: Option: English, variant=american.
+Package polyglossia Info: Option: English, variant=american.
+)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package rerunfilecheck Info: File `MyBook.out' has not changed.
+(rerunfilecheck)             Checksum: 5EC42A2096A5F3B1CD1A8801155439F8;2556.
+Package logreq Info: Writing requests to 'MyBook.run.xml'.
+\openout1 = `MyBook.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 44463 strings out of 478149
+ 886990 string characters out of 5851003
+ 1818852 words of memory out of 5000000
+ 64390 multiletter control sequences out of 15000+600000
+ 482092 words of font info for 66 fonts, out of 8000000 for 9000
+ 16 hyphenation exceptions out of 8191
+ 99i,17n,121p,1151b,5602s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on MyBook.pdf (14 pages).

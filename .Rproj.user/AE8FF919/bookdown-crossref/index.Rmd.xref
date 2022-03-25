@@ -1,0 +1,21 @@
+h1:title-page Title page…
+h1:or-a-pdf-cover … or a PDF cover
+h1:language Language
+h1:latex LaTeX
+h1:paper-font Paper, font
+h1:fonts-installed-by-a-package.-latex-tex-gyre-package-must-be-installed-for Fonts installed by a package. LaTeX tex-gyre package must be installed for:
+h1:mainfont-texgyretermes-times-new-roman-for-the-text mainfont: texgyretermes # Times New Roman for the text
+h1:mathfont-texgyretermes-math.otf-times-new-roman-for-equations mathfont: texgyretermes-math.otf # Times New Roman for equations
+h1:memoir-style memoir Style
+h1:margins Margins
+h1:table-of-contents Table of contents
+h1:section-numbering Section numbering
+h1:list-of-tables-figures List of tables / Figures
+h1:bibliography Bibliography
+h1:pagereftrue-uncomment-for-verbose-inotes-style - pageref=true # uncomment for verbose-inotes style
+h1:chapter-summary-text Chapter summary text
+h1:back-cover Back Cover
+h1:figure-cropping-may-be-set-to-no-if-ghostscript-is-not-installed Figure cropping may be set to no if ghostscript is not installed
+h1:do-not-modify Do not modify
+h1:introduction Introduction
+
