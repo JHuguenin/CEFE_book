@@ -4,24 +4,24 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>2 Présentation de la PTR-ToF-MS | Memoir Template</title>
-  <meta name="description" content="Bookdown template based on LaTeX memoir class" />
+  <title>5 Présentation de la PTR-ToF-MS | Memoir Template</title>
+  <meta name="description" content="Resume de l’atelier Rmarkdown et memoiR du 25 mars 2022" />
   <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="2 Présentation de la PTR-ToF-MS | Memoir Template" />
+  <meta property="og:title" content="5 Présentation de la PTR-ToF-MS | Memoir Template" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="https://GitHubID.github.io/Repository/" />
   <meta property="og:image" content="https://GitHubID.github.io/Repository//images/logo.png" />
-  <meta property="og:description" content="Bookdown template based on LaTeX memoir class" />
+  <meta property="og:description" content="Resume de l’atelier Rmarkdown et memoiR du 25 mars 2022" />
   <meta name="github-repo" content="GitHubID/Repository" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="2 Présentation de la PTR-ToF-MS | Memoir Template" />
+  <meta name="twitter:title" content="5 Présentation de la PTR-ToF-MS | Memoir Template" />
   
-  <meta name="twitter:description" content="Bookdown template based on LaTeX memoir class" />
+  <meta name="twitter:description" content="Resume de l’atelier Rmarkdown et memoiR du 25 mars 2022" />
   <meta name="twitter:image" content="https://GitHubID.github.io/Repository//images/logo.png" />
 
-<meta name="author" content="Authors’ names" />
+<meta name="author" content="CEFE R users" />
 
 
 <meta name="date" content="2022-03-25" />
@@ -31,7 +31,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="notes-atelier-rmarkdown.html"/>
+<link rel="prev" href="aperçu-des-données.html"/>
 
 <script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
@@ -53,6 +53,8 @@
 
 <link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 
 
 <style type="text/css">
@@ -120,6 +122,28 @@ code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -137,7 +161,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><a href="./">Title of the Memoir</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a></li>
 <li class="chapter" data-level="1" data-path="notes-atelier-rmarkdown.html"><a href="notes-atelier-rmarkdown.html"><i class="fa fa-check"></i><b>1</b> Notes Atelier Rmarkdown</a>
 <ul>
 <li class="chapter" data-level="1.1" data-path="notes-atelier-rmarkdown.html"><a href="notes-atelier-rmarkdown.html#pourquoi-utiliser-rmarkdown"><i class="fa fa-check"></i><b>1.1</b> Pourquoi utiliser Rmarkdown ?</a></li>
@@ -156,16 +179,25 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="1.4" data-path="notes-atelier-rmarkdown.html"><a href="notes-atelier-rmarkdown.html#écrire-un-article"><i class="fa fa-check"></i><b>1.4</b> Écrire un article</a></li>
 <li class="chapter" data-level="1.5" data-path="notes-atelier-rmarkdown.html"><a href="notes-atelier-rmarkdown.html#écrire-un-mémoire"><i class="fa fa-check"></i><b>1.5</b> Écrire un mémoire</a></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="présentation-de-la-ptr-tof-ms.html"><a href="présentation-de-la-ptr-tof-ms.html"><i class="fa fa-check"></i><b>2</b> Présentation de la PTR-ToF-MS</a>
+<li class="chapter" data-level="2" data-path="les-pinèdes.html"><a href="les-pinèdes.html"><i class="fa fa-check"></i><b>2</b> Les pinèdes</a>
 <ul>
-<li class="chapter" data-level="2.1" data-path="présentation-de-la-ptr-tof-ms.html"><a href="présentation-de-la-ptr-tof-ms.html#une-brève-histoire-de-la-ptr-tof-ms"><i class="fa fa-check"></i><b>2.1</b> Une brève histoire de la PTR-ToF-MS</a></li>
-<li class="chapter" data-level="2.2" data-path="présentation-de-la-ptr-tof-ms.html"><a href="présentation-de-la-ptr-tof-ms.html#instrumentation-générale"><i class="fa fa-check"></i><b>2.2</b> Instrumentation générale</a></li>
-<li class="chapter" data-level="2.3" data-path="présentation-de-la-ptr-tof-ms.html"><a href="présentation-de-la-ptr-tof-ms.html#analyse-et-conclusion"><i class="fa fa-check"></i><b>2.3</b> Analyse et conclusion</a>
-<ul>
-<li class="chapter" data-level="2.3.1" data-path="présentation-de-la-ptr-tof-ms.html"><a href="présentation-de-la-ptr-tof-ms.html#le-plan-dexpérience"><i class="fa fa-check"></i><b>2.3.1</b> Le plan d’expérience</a></li>
+<li class="chapter" data-level="2.1" data-path="les-pinèdes.html"><a href="les-pinèdes.html#de-nos-régions"><i class="fa fa-check"></i><b>2.1</b> de nos régions</a></li>
 </ul></li>
-<li class="chapter" data-level="2.4" data-path="présentation-de-la-ptr-tof-ms.html"><a href="présentation-de-la-ptr-tof-ms.html#résultats-de-la-mcr"><i class="fa fa-check"></i><b>2.4</b> Résultats de la MCR</a></li>
-<li class="chapter" data-level="2.5" data-path="présentation-de-la-ptr-tof-ms.html"><a href="présentation-de-la-ptr-tof-ms.html#bibliographie"><i class="fa fa-check"></i><b>2.5</b> Bibliographie</a></li>
+<li class="chapter" data-level="3" data-path="e-partie-les-pollinisateurs-des-pins.html"><a href="e-partie-les-pollinisateurs-des-pins.html"><i class="fa fa-check"></i><b>3</b> 2e partie : les pollinisateurs des pins</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="e-partie-les-pollinisateurs-des-pins.html"><a href="e-partie-les-pollinisateurs-des-pins.html#ça-nexiste-pas"><i class="fa fa-check"></i><b>3.1</b> ça n’existe pas</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="aperçu-des-données.html"><a href="aperçu-des-données.html"><i class="fa fa-check"></i><b>4</b> Aperçu des données</a></li>
+<li class="chapter" data-level="5" data-path="présentation-de-la-ptr-tof-ms.html"><a href="présentation-de-la-ptr-tof-ms.html"><i class="fa fa-check"></i><b>5</b> Présentation de la PTR-ToF-MS</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="présentation-de-la-ptr-tof-ms.html"><a href="présentation-de-la-ptr-tof-ms.html#une-brève-histoire-de-la-ptr-tof-ms"><i class="fa fa-check"></i><b>5.1</b> Une brève histoire de la PTR-ToF-MS</a></li>
+<li class="chapter" data-level="5.2" data-path="présentation-de-la-ptr-tof-ms.html"><a href="présentation-de-la-ptr-tof-ms.html#instrumentation-générale"><i class="fa fa-check"></i><b>5.2</b> Instrumentation générale</a></li>
+<li class="chapter" data-level="5.3" data-path="présentation-de-la-ptr-tof-ms.html"><a href="présentation-de-la-ptr-tof-ms.html#analyse-et-conclusion"><i class="fa fa-check"></i><b>5.3</b> Analyse et conclusion</a>
+<ul>
+<li class="chapter" data-level="5.3.1" data-path="présentation-de-la-ptr-tof-ms.html"><a href="présentation-de-la-ptr-tof-ms.html#le-plan-dexpérience"><i class="fa fa-check"></i><b>5.3.1</b> Le plan d’expérience</a></li>
+</ul></li>
+<li class="chapter" data-level="5.4" data-path="présentation-de-la-ptr-tof-ms.html"><a href="présentation-de-la-ptr-tof-ms.html#résultats-de-la-mcr"><i class="fa fa-check"></i><b>5.4</b> Résultats de la MCR</a></li>
+<li class="chapter" data-level="5.5" data-path="présentation-de-la-ptr-tof-ms.html"><a href="présentation-de-la-ptr-tof-ms.html#bibliographie"><i class="fa fa-check"></i><b>5.5</b> Bibliographie</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/GitHubID/Repository" target="blank">Published with bookdown</a></li>
@@ -187,8 +219,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="présentation-de-la-ptr-tof-ms" class="section level1" number="2">
-<h1><span class="header-section-number">2</span> Présentation de la PTR-ToF-MS</h1>
+<div id="présentation-de-la-ptr-tof-ms" class="section level1" number="5">
+<h1><span class="header-section-number">5</span> Présentation de la PTR-ToF-MS</h1>
 <p>De très nombreux projets de recherche issus du CeMEB nécessitent l’analyse de <strong>C</strong>omposés <strong>O</strong>rganiques <strong>V</strong>olatils (COV ou VOC en anglais) aussi communément appelés “odeurs.” Les COVs sont omniprésents dans la nature et permettent, avec les autres sens, une organisation du vivant en agissant comme vecteur d’information de la médiation chimique. Par l’acquisition d’un PTR-ToF-MS, la communauté souhaitait lever trois verrous techniques :</p>
 <ul>
 <li>l’appareil permet un fonctionnement en flux continu avec une résolution temporelle très fine (fréquence d’analyse allant jusqu’à 10 scans par seconde), permettant ainsi le suivi des cinétiques d’émissions de COV. Cet instrument simplifie drastiquement et affine les expériences cinétiques effectuées par des mesures moyennées de GC-MS;<br />
@@ -197,154 +229,62 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </li>
 <li>le seuil de détection extrêmement bas, de l’ordre du ppt (part per trillion), permet une sensibilité adaptée à la mesure de traces.</li>
 </ul>
-<div id="une-brève-histoire-de-la-ptr-tof-ms" class="section level2" number="2.1">
-<h2><span class="header-section-number">2.1</span> Une brève histoire de la PTR-ToF-MS</h2>
-<p>Durant la décennie 1990, l’<em>Institut für Ionenphysik der Leopold-Franzens-Universität</em> d’Innsbruck en Autriche développe un nouvel instrument pour l’analyse chimique des gaz. En travaillant avec la <em>Universitiitsklinik fiir Innere Medizin</em>, l’équipe menée par Lindinger développe un spectromètre en phase gazeuse qui ionise les molécules grâce à un gaz neutre (<span class="citation">(<a href="#ref-lindinger_1991" role="doc-biblioref"><strong>lindinger_1991?</strong></a>)</span> et <span class="citation">(<a href="#ref-lindinger_1993" role="doc-biblioref"><strong>lindinger_1993?</strong></a>)</span>). Ils comprennent rapidement l’avantage d’utiliser un proton (apporté à la réaction sous la forme H<sub>3</sub>O<sup>+</sup>) par rapport aux ions Kr<sup>+</sup> et Xe<sup>+</sup>. Ils publient une sorte de preuve de concept en 1994 <span class="citation">(<a href="#ref-lagg_1994" role="doc-biblioref"><strong>lagg_1994?</strong></a>)</span> et détaillent plus finement l’instrumentation et les réactions chimiques <span class="citation">(<a href="#ref-hansel_1995" role="doc-biblioref"><strong>hansel_1995?</strong></a>)</span><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>. En 1998 sort l’article qui fait désormais référence, <span class="citation">(<a href="#ref-lindinger_1998a" role="doc-biblioref"><strong>lindinger_1998a?</strong></a>)</span>, signé par le trio Lindinger, Hansel et Jordan (et sa version courte <span class="citation">(<a href="#ref-lindinger_1998" role="doc-biblioref"><strong>lindinger_1998?</strong></a>)</span>).</p>
-<p>Ionicon commercialise la même année le premier PTR-MS. Cette technique se déploie rapidement dans les sciences de l’atmosphère, médicales et biotech (<span class="citation">(<a href="#ref-babcock_2001" role="doc-biblioref"><strong>babcock_2001?</strong></a>)</span>) permettant la détection de traces de COV. Rapide et sensible, la PTR-MS élimine certains désavantages de la GC-MS. Cependant, la PTR-MS détecte de la masse nominale des ions. Un échantillon complexe peut contenir plusieurs ions isobares<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>. Il convient alors de gagner en résolution de masse et séparer ces isobares. <span class="citation">(<a href="#ref-jordan_2009" role="doc-biblioref"><strong>jordan_2009?</strong></a>)</span> revient sur les tentatives les plus concluantes (<span class="citation">(<a href="#ref-blake_2004" role="doc-biblioref"><strong>blake_2004?</strong></a>)</span>, <span class="citation">(<a href="#ref-ennis_2005" role="doc-biblioref"><strong>ennis_2005?</strong></a>)</span>, <span class="citation">(<a href="#ref-inomata_2006" role="doc-biblioref"><strong>inomata_2006?</strong></a>)</span> et <span class="citation">(<a href="#ref-tanimoto_2007" role="doc-biblioref"><strong>tanimoto_2007?</strong></a>)</span> ) avant de proposer son approche : la PTR-ToF-MS. Développé en collaboration avec la précédente équipe, le minutieux article de <span class="citation">(<a href="#ref-graus_2010" role="doc-biblioref"><strong>graus_2010?</strong></a>)</span> conclu superbement la vingtaine d’années de développement nécessaire à cette technique. Les années suivantes permettront simplement une amélioration des différentes parties de l’instrument.</p>
-<p>Par ailleurs, c’est au tour des mathématiciens d’apporter leur contribution et en particulier à l’équipe de Cappellin avec deux articles. Le premier, <span class="citation">(<a href="#ref-cappellin_2010" role="doc-biblioref"><strong>cappellin_2010?</strong></a>)</span>, permet de mieux estimer la masse exacte de chaque ion détecté. Le seconde, <span class="citation">(<a href="#ref-cappellin_2011" role="doc-biblioref"><strong>cappellin_2011?</strong></a>)</span>, offre une méthodologie détaillée de l’utilisation du PTR-ToF-MS de l’acquisition à la fin de l’analyse. Puis en 2015, <span class="citation">(<a href="#ref-holzinger_2015" role="doc-biblioref"><strong>holzinger_2015?</strong></a>)</span> propose un logiciel pour l’analyse des data mais cette tentative n’a pas été suivie par la communauté d’utilisateurs. Il existe désormais un nombre important d’articles utilisant la PTR-ToF-MS. Bien entendu, des outils communs de chimiométrie ont été utilisés pour renforcer les résultats, <span class="citation">(<a href="#ref-deuscher_2019" role="doc-biblioref"><strong>deuscher_2019?</strong></a>)</span>. Mais cela sera abordé dans le chapitre suivant.</p>
-<p>Je suppose que la prochaine avancée majeure viendra d’une technologie permettant de discriminer les isomères<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> <span class="citation">(<a href="#ref-amt-14-133-2021" role="doc-biblioref"><strong>amt-14-133-2021?</strong></a>)</span>.<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a> Par exemple, cela permettrait de séparer les différents monoterpènes omniprésents dans les émissions végétales et qui nous concernent particulièrement en écologie chimique. Actuellement, ce désavantage est comblé par le couplage de la PTR-ToF-MS avec une seconde technique d’analyse chimique. Ce court historique montre toutefois que la collaboration entre physiciens, chimistes, biologistes et mathématiciens est fructueuse et promise à un bel avenir.</p>
+<div id="une-brève-histoire-de-la-ptr-tof-ms" class="section level2" number="5.1">
+<h2><span class="header-section-number">5.1</span> Une brève histoire de la PTR-ToF-MS</h2>
+<p>Durant la décennie 1990, l’<em>Institut für Ionenphysik der Leopold-Franzens-Universität</em> d’Innsbruck en Autriche développe un nouvel instrument pour l’analyse chimique des gaz. En travaillant avec la <em>Universitiitsklinik fiir Innere Medizin</em>, l’équipe menée par Lindinger développe un spectromètre en phase gazeuse qui ionise les molécules grâce à un gaz neutre (<span class="citation">(<a href="#ref-lindinger_1991" role="doc-biblioref">W. Lindinger, Leiter, and Andriollo 1991</a>)</span> et <span class="citation">(<a href="#ref-lindinger_1993" role="doc-biblioref">W. Lindinger, Hirber, and Paretzke 1993</a>)</span>). Ils comprennent rapidement l’avantage d’utiliser un proton (apporté à la réaction sous la forme H<sub>3</sub>O<sup>+</sup>) par rapport aux ions Kr<sup>+</sup> et Xe<sup>+</sup>. Ils publient une sorte de preuve de concept en 1994 <span class="citation">(<a href="#ref-lagg_1994" role="doc-biblioref">Lagg et al. 1994</a>)</span> et détaillent plus finement l’instrumentation et les réactions chimiques <span class="citation">(<a href="#ref-hansel_1995" role="doc-biblioref">Hansel et al. 1995</a>)</span><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>. En 1998 sort l’article qui fait désormais référence, <span class="citation">(<a href="#ref-lindinger_1998a" role="doc-biblioref">W. Lindinger, Hansel, and Jordan 1998</a>)</span>, signé par le trio Lindinger, Hansel et Jordan (et sa version courte <span class="citation"><a href="#ref-lindinger_1998" role="doc-biblioref">W. Lindinger and Jordan</a> (<a href="#ref-lindinger_1998" role="doc-biblioref">1998</a>)</span>).</p>
+<p>Ionicon commercialise la même année le premier PTR-MS. Cette technique se déploie rapidement dans les sciences de l’atmosphère, médicales et biotech (<span class="citation">(<a href="#ref-babcock_2001" role="doc-biblioref">Babcock and Adams 2001</a>)</span>) permettant la détection de traces de COV. Rapide et sensible, la PTR-MS élimine certains désavantages de la GC-MS. Cependant, la PTR-MS détecte de la masse nominale des ions. Un échantillon complexe peut contenir plusieurs ions isobares<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>. Il convient alors de gagner en résolution de masse et séparer ces isobares. <span class="citation">(<a href="#ref-jordan_2009" role="doc-biblioref">Jordan et al. 2009</a>)</span> revient sur les tentatives les plus concluantes (<span class="citation">(<a href="#ref-blake_2004" role="doc-biblioref">Blake et al. 2004</a>)</span>, <span class="citation">(<a href="#ref-ennis_2005" role="doc-biblioref">Ennis et al. 2005</a>)</span>, <span class="citation">(<a href="#ref-inomata_2006" role="doc-biblioref">Inomata et al. 2006</a>)</span> et <span class="citation">(<a href="#ref-tanimoto_2007" role="doc-biblioref">Tanimoto et al. 2007</a>)</span> ) avant de proposer son approche : la PTR-ToF-MS. Développé en collaboration avec la précédente équipe, le minutieux article de <span class="citation">(<a href="#ref-graus_2010" role="doc-biblioref">Graus, Müller, and Hansel 2010</a>)</span> conclu superbement la vingtaine d’années de développement nécessaire à cette technique. Les années suivantes permettront simplement une amélioration des différentes parties de l’instrument.</p>
+<p>Par ailleurs, c’est au tour des mathématiciens d’apporter leur contribution et en particulier à l’équipe de Cappellin avec deux articles. Le premier, <span class="citation">(<a href="#ref-cappellin_2010" role="doc-biblioref">Cappellin et al. 2010</a>)</span>, permet de mieux estimer la masse exacte de chaque ion détecté. Le seconde, <span class="citation">(<a href="#ref-cappellin_2011" role="doc-biblioref">Cappellin et al. 2011</a>)</span>, offre une méthodologie détaillée de l’utilisation du PTR-ToF-MS de l’acquisition à la fin de l’analyse. Puis en 2015, <span class="citation">(<a href="#ref-holzinger_2015" role="doc-biblioref">Holzinger 2015</a>)</span> propose un logiciel pour l’analyse des data mais cette tentative n’a pas été suivie par la communauté d’utilisateurs. Il existe désormais un nombre important d’articles utilisant la PTR-ToF-MS. Bien entendu, des outils communs de chimiométrie ont été utilisés pour renforcer les résultats, <span class="citation">(<a href="#ref-deuscher_2019" role="doc-biblioref">Deuscher et al. 2019</a>)</span>. Mais cela sera abordé dans le chapitre suivant.</p>
+<p>Je suppose que la prochaine avancée majeure viendra d’une technologie permettant de discriminer les isomères<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> <span class="citation">(<a href="#ref-amt-14-133-2021" role="doc-biblioref">Claflin et al. 2021</a>)</span>.<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a> Par exemple, cela permettrait de séparer les différents monoterpènes omniprésents dans les émissions végétales et qui nous concernent particulièrement en écologie chimique. Actuellement, ce désavantage est comblé par le couplage de la PTR-ToF-MS avec une seconde technique d’analyse chimique. Ce court historique montre toutefois que la collaboration entre physiciens, chimistes, biologistes et mathématiciens est fructueuse et promise à un bel avenir.</p>
 </div>
-<div id="instrumentation-générale" class="section level2" number="2.2">
-<h2><span class="header-section-number">2.2</span> Instrumentation générale</h2>
+<div id="instrumentation-générale" class="section level2" number="5.2">
+<h2><span class="header-section-number">5.2</span> Instrumentation générale</h2>
 <div class="figure">
 <img src="images/schema_vocus.PNG" id="fig:schemavocus" alt="" />
-<p class="caption">Schéma de la chambre d’ionisation (Reprinted with permission from <span class="citation">(<a href="#ref-krechmer_2018" role="doc-biblioref"><strong>krechmer_2018?</strong></a>)</span>. Copyright 2021 American Chemical Society.)</p>
+<p class="caption">Schéma de la chambre d’ionisation (Reprinted with permission from <span class="citation"><a href="#ref-krechmer_2018" role="doc-biblioref">Krechmer et al.</a> (<a href="#ref-krechmer_2018" role="doc-biblioref">2018</a>)</span>. Copyright 2021 American Chemical Society.)</p>
 </div>
 <p>Comme nous l’avons vu précédemment, le PTR-ToF-MS est conçu pour analyser finement la masse moléculaire des échantillons. Pour cela l’instrument aspire un débit d’air constant de 100 ml/min<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a>. Cet <em>air in</em> sur la figure <a href="présentation-de-la-ptr-tof-ms.html#fig:schemavocus"><strong>??</strong></a> peut être connecté à un gaz zéro pour diluer un échantillon trop concentré (pour éviter la saturation) ou à un gaz étalon pour l’étalonnage de l’instrument. Le flux d’air est ensuite injecté dans le réacteur (<em>FIMR</em> pour <em>focusing ion-molecule reactor</em>). Dans cette chambre, des ions H<sup>+</sup> issus d’eau ultra pure sont également injectés à débit constant afin d’ioniser les molécules de l’échantillon (<em>Proton-Transfer-Reaction</em>).</p>
 <p>Il est important de comprendre que, contrairement à une ionisation par électron<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a>, il n’y a quasiment pas de fragmentation moléculaire. C’est une ionisation douce, comme en ESI (ElectroSpray Ionization) fréquemment utilisée en LC-MS. Les ions ont “une unité de masse molaire de plus”(un proton) que les ions moléculaires. Par exemple, le linalol, un COV fortement produit par la lavande, a une masse molaire de 154,249 g/mol mais sera detecté à 155,256 g/mol. Par ailleurs, le nombre d’ions MH<sup>+</sup> détectés dépend du taux de protonation de la molécule M. Sous forme d’ions, l’échantillon peut être focalisé par un champ électromagnétique généré par un quadripôle et envoyé dans la partie ToF.</p>
 <p>Une fois dans la colonne, l’énergie potentielle d’un pulse électromagnétique à 25kHz est convertie en énergie cinétique par les ions propulsés. À énergie constante, la masse fait la différence lors de la mesure du temps de vol (ToF, figure <a href="présentation-de-la-ptr-tof-ms.html#fig:schemaToF"><strong>??</strong></a>). Ainsi les ions les moins lourds arrivent en premiers sur le détecteur. Le comptage du nombre de coups sur le détecteur donne l’intensité par unité de temps. Un étalonnage, avec des ions moléculaires étalons, permet de convertir le <em>temps de vol</em> en <em>masse</em>, ce qui permet par la suite d’analyser les masses des échantillons inconnus.</p>
 <div class="figure">
 <img src="images/schema_tof.jpg" id="fig:schemaToF" alt="" />
-<p class="caption">Schéma de la colonne ToF et du détecteur MS (Reproduit de l’article <span class="citation">(<a href="#ref-graus_2010" role="doc-biblioref"><strong>graus_2010?</strong></a>)</span>)</p>
+<p class="caption">Schéma de la colonne ToF et du détecteur MS (Reproduit de l’article <span class="citation"><a href="#ref-graus_2010" role="doc-biblioref">Graus, Müller, and Hansel</a> (<a href="#ref-graus_2010" role="doc-biblioref">2010</a>)</span>)</p>
 </div>
-<p>Pour une compréhension plus exhaustive, je recommande la lecture des articles de <span class="citation">(<a href="#ref-hansel_1995" role="doc-biblioref"><strong>hansel_1995?</strong></a>)</span> pour la partie PTR-MS, de <span class="citation">(<a href="#ref-graus_2010" role="doc-biblioref"><strong>graus_2010?</strong></a>)</span> pour la partie ToF et de <span class="citation">(<a href="#ref-krechmer_2018" role="doc-biblioref"><strong>krechmer_2018?</strong></a>)</span> spécifique à l’instrument utilisé au CEFE.</p>
+<p>Pour une compréhension plus exhaustive, je recommande la lecture des articles de <span class="citation"><a href="#ref-hansel_1995" role="doc-biblioref">Hansel et al.</a> (<a href="#ref-hansel_1995" role="doc-biblioref">1995</a>)</span> pour la partie PTR-MS, de <span class="citation"><a href="#ref-graus_2010" role="doc-biblioref">Graus, Müller, and Hansel</a> (<a href="#ref-graus_2010" role="doc-biblioref">2010</a>)</span> pour la partie ToF et de <span class="citation"><a href="#ref-krechmer_2018" role="doc-biblioref">Krechmer et al.</a> (<a href="#ref-krechmer_2018" role="doc-biblioref">2018</a>)</span> spécifique à l’instrument utilisé au CEFE.</p>
 </div>
-<div id="analyse-et-conclusion" class="section level2" number="2.3">
-<h2><span class="header-section-number">2.3</span> Analyse et conclusion</h2>
-<div id="le-plan-dexpérience" class="section level3" number="2.3.1">
-<h3><span class="header-section-number">2.3.1</span> Le plan d’expérience</h3>
+<div id="analyse-et-conclusion" class="section level2" number="5.3">
+<h2><span class="header-section-number">5.3</span> Analyse et conclusion</h2>
+<div id="le-plan-dexpérience" class="section level3" number="5.3.1">
+<h3><span class="header-section-number">5.3.1</span> Le plan d’expérience</h3>
 <p>Pour illustrer cela, je présenterais une expérience sur les lavandes. Cette expérience s’inscrit dans un cadre d’un projet MUSE (Montpellier Université d’Excellence) porté par Magali Proffit et s’intéressant aux phénomènes de pollution à l’Ozone O_3 liés au changement climatique global. Nous nous sommes intéressés aux variations journalières des émissions de COV de lavandes isolés dans des chambres de prélèvements. Les acquisitions se déroulaient durant 48h à cheval sur trois jours et deux nuits afin de décrire le rythme circadien des plantes.</p>
 <p>Nous avons mis en place quatre chambres de mesure permettant chacune soit d’isoler un plant de lavande soit d’être un blanc. Ces chambres de mesure sont des cylindres en plastique, ventilés, de volumes équivalents et reliés à un flux d’air zéro d’un débit de 5 litres/min. La longueur et le volume des lignes reliant les chambres à l’instrument de mesure n’étaient pas identiques. Nous avons lancé des acquisitions sur les quatre chambres séquentiellement durant 48h. Nous avons répété ce processus deux fois, pour obtenir neuf plants au total dans notre plan d’expérience (cf. <a href="#tab:PlanXP"><strong>??</strong></a>).</p>
 <p></p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="présentation-de-la-ptr-tof-ms.html#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">load</span>(<span class="st">&quot;data/tea_als_lav.RData&quot;</span>)</span>
-<span id="cb2-2"><a href="présentation-de-la-ptr-tof-ms.html#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(magrittr)</span></code></pre></div>
-<pre><code>## 
-## Attaching package: &#39;magrittr&#39;</code></pre>
-<pre><code>## The following object is masked from &#39;package:purrr&#39;:
-## 
-##     set_names</code></pre>
-<pre><code>## The following object is masked from &#39;package:tidyr&#39;:
-## 
-##     extract</code></pre>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="présentation-de-la-ptr-tof-ms.html#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(lubridate)</span></code></pre></div>
-<pre><code>## 
-## Attaching package: &#39;lubridate&#39;</code></pre>
-<pre><code>## The following objects are masked from &#39;package:base&#39;:
-## 
-##     date, intersect, setdiff, union</code></pre>
-<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="présentation-de-la-ptr-tof-ms.html#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(viridis)</span></code></pre></div>
-<pre><code>## Loading required package: viridisLite</code></pre>
-<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="présentation-de-la-ptr-tof-ms.html#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(scales)</span></code></pre></div>
-<pre><code>## 
-## Attaching package: &#39;scales&#39;</code></pre>
-<pre><code>## The following object is masked from &#39;package:viridis&#39;:
-## 
-##     viridis_pal</code></pre>
-<pre><code>## The following object is masked from &#39;package:purrr&#39;:
-## 
-##     discard</code></pre>
-<pre><code>## The following object is masked from &#39;package:readr&#39;:
-## 
-##     col_factor</code></pre>
-<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb16-1"><a href="présentation-de-la-ptr-tof-ms.html#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(kableExtra)</span>
-<span id="cb16-2"><a href="présentation-de-la-ptr-tof-ms.html#cb16-2" aria-hidden="true" tabindex="-1"></a>name_ech <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;lv1&quot;</span>, <span class="st">&quot;lv2&quot;</span>, <span class="st">&quot;lv3&quot;</span>, <span class="st">&quot;bl1&quot;</span>, <span class="st">&quot;lv4&quot;</span>, <span class="st">&quot;lv5&quot;</span>, <span class="st">&quot;lv6&quot;</span>,</span>
-<span id="cb16-3"><a href="présentation-de-la-ptr-tof-ms.html#cb16-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;bl2&quot;</span>, <span class="st">&quot;lv7&quot;</span>, <span class="st">&quot;lv8&quot;</span>, <span class="st">&quot;lv9&quot;</span>, <span class="st">&quot;bl3&quot;</span>)</span>
-<span id="cb16-4"><a href="présentation-de-la-ptr-tof-ms.html#cb16-4" aria-hidden="true" tabindex="-1"></a>xt <span class="ot">&lt;-</span> <span class="fu">as.numeric</span>(<span class="fu">rownames</span>(tea.als<span class="sc">$</span>CList[[<span class="dv">1</span>]]))</span>
-<span id="cb16-5"><a href="présentation-de-la-ptr-tof-ms.html#cb16-5" aria-hidden="true" tabindex="-1"></a>nech <span class="ot">&lt;-</span> <span class="fu">length</span>(tea.als<span class="sc">$</span>CList)</span>
-<span id="cb16-6"><a href="présentation-de-la-ptr-tof-ms.html#cb16-6" aria-hidden="true" tabindex="-1"></a><span class="co"># tableau tabl &lt;- matrix(name_ech,4,3,dimnames =</span></span>
-<span id="cb16-7"><a href="présentation-de-la-ptr-tof-ms.html#cb16-7" aria-hidden="true" tabindex="-1"></a><span class="co"># list(c(&#39;voie 1&#39;,&#39;voie 2&#39;,&#39;voie 3&#39;,&#39;voie</span></span>
-<span id="cb16-8"><a href="présentation-de-la-ptr-tof-ms.html#cb16-8" aria-hidden="true" tabindex="-1"></a><span class="co"># 4&#39;),c(&#39;J1&#39;,&#39;J2&#39;,&#39;J3&#39;))) %&gt;% as.data.frame()</span></span>
-<span id="cb16-9"><a href="présentation-de-la-ptr-tof-ms.html#cb16-9" aria-hidden="true" tabindex="-1"></a><span class="co"># knitr::kable(tabl, caption = &#39;Plan d&#39;experience&#39;,</span></span>
-<span id="cb16-10"><a href="présentation-de-la-ptr-tof-ms.html#cb16-10" aria-hidden="true" tabindex="-1"></a><span class="co"># booktabs = TRUE) %&gt;%</span></span>
-<span id="cb16-11"><a href="présentation-de-la-ptr-tof-ms.html#cb16-11" aria-hidden="true" tabindex="-1"></a><span class="co"># kableExtra::kable_styling(bootstrap_options = &#39;striped&#39;,</span></span>
-<span id="cb16-12"><a href="présentation-de-la-ptr-tof-ms.html#cb16-12" aria-hidden="true" tabindex="-1"></a><span class="co"># full_width = FALSE)</span></span></code></pre></div>
 <p></p>
 </div>
 </div>
-<div id="résultats-de-la-mcr" class="section level2" number="2.4">
-<h2><span class="header-section-number">2.4</span> Résultats de la MCR</h2>
+<div id="résultats-de-la-mcr" class="section level2" number="5.4">
+<h2><span class="header-section-number">5.4</span> Résultats de la MCR</h2>
 <p></p>
-<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="présentation-de-la-ptr-tof-ms.html#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="do">###################</span></span>
-<span id="cb17-2"><a href="présentation-de-la-ptr-tof-ms.html#cb17-2" aria-hidden="true" tabindex="-1"></a>fmr <span class="ot">&lt;-</span> <span class="fu">dim</span>(tea.als<span class="sc">$</span>S)</span>
-<span id="cb17-3"><a href="présentation-de-la-ptr-tof-ms.html#cb17-3" aria-hidden="true" tabindex="-1"></a>matS <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="dv">1</span>, <span class="dv">0</span>, <span class="sc">-</span><span class="fl">0.25</span>, ) <span class="sc">%&gt;%</span></span>
-<span id="cb17-4"><a href="présentation-de-la-ptr-tof-ms.html#cb17-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">matrix</span>(fmr[<span class="dv">1</span>], fmr[<span class="dv">2</span>], <span class="at">byrow =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb17-5"><a href="présentation-de-la-ptr-tof-ms.html#cb17-5" aria-hidden="true" tabindex="-1"></a>matS <span class="ot">&lt;-</span> matS <span class="sc">+</span> tea.als<span class="sc">$</span>S</span>
-<span id="cb17-6"><a href="présentation-de-la-ptr-tof-ms.html#cb17-6" aria-hidden="true" tabindex="-1"></a>massS <span class="ot">&lt;-</span> <span class="fu">rownames</span>(tea.als<span class="sc">$</span>S) <span class="sc">%&gt;%</span></span>
-<span id="cb17-7"><a href="présentation-de-la-ptr-tof-ms.html#cb17-7" aria-hidden="true" tabindex="-1"></a>    <span class="fu">as.numeric</span>()</span>
-<span id="cb17-8"><a href="présentation-de-la-ptr-tof-ms.html#cb17-8" aria-hidden="true" tabindex="-1"></a>ncMCR <span class="ot">&lt;-</span> <span class="dv">5</span></span>
-<span id="cb17-9"><a href="présentation-de-la-ptr-tof-ms.html#cb17-9" aria-hidden="true" tabindex="-1"></a><span class="co"># plot Rapport</span></span>
-<span id="cb17-10"><a href="présentation-de-la-ptr-tof-ms.html#cb17-10" aria-hidden="true" tabindex="-1"></a><span class="fu">layout</span>(<span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">1</span>)</span>
-<span id="cb17-11"><a href="présentation-de-la-ptr-tof-ms.html#cb17-11" aria-hidden="true" tabindex="-1"></a><span class="co"># png(filename = &#39;images/lavandes_S_MCR.png&#39;, width = 600,</span></span>
-<span id="cb17-12"><a href="présentation-de-la-ptr-tof-ms.html#cb17-12" aria-hidden="true" tabindex="-1"></a><span class="co"># height = 400)</span></span>
-<span id="cb17-13"><a href="présentation-de-la-ptr-tof-ms.html#cb17-13" aria-hidden="true" tabindex="-1"></a><span class="fu">par</span>(<span class="at">mar =</span> <span class="fu">c</span>(<span class="dv">3</span>, <span class="dv">3</span>, <span class="fl">0.1</span>, <span class="fl">0.1</span>), <span class="at">mgp =</span> <span class="fu">c</span>(<span class="dv">2</span>, <span class="dv">1</span>, <span class="dv">0</span>))</span>
-<span id="cb17-14"><a href="présentation-de-la-ptr-tof-ms.html#cb17-14" aria-hidden="true" tabindex="-1"></a><span class="fu">matplot</span>(massS, matS, <span class="at">type =</span> <span class="st">&quot;l&quot;</span>, <span class="at">xlim =</span> <span class="fu">c</span>(<span class="dv">57</span>, <span class="dv">210</span>), <span class="at">ylim =</span> <span class="fu">c</span>(<span class="dv">0</span>,</span>
-<span id="cb17-15"><a href="présentation-de-la-ptr-tof-ms.html#cb17-15" aria-hidden="true" tabindex="-1"></a>    <span class="fl">1.3</span>), <span class="at">lty =</span> <span class="dv">1</span>, <span class="at">lwd =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">1</span>), <span class="at">col =</span> <span class="fu">alpha</span>(<span class="fu">viridis</span>(<span class="dv">5</span>),</span>
-<span id="cb17-16"><a href="présentation-de-la-ptr-tof-ms.html#cb17-16" aria-hidden="true" tabindex="-1"></a>    <span class="fl">0.8</span>), <span class="at">xlab =</span> <span class="st">&quot;m/z (Da)&quot;</span>, <span class="at">ylab =</span> <span class="st">&quot;Intensity (u.a.)&quot;</span>)</span>
-<span id="cb17-17"><a href="présentation-de-la-ptr-tof-ms.html#cb17-17" aria-hidden="true" tabindex="-1"></a><span class="fu">legend</span>(<span class="st">&quot;topright&quot;</span>, <span class="at">legend =</span> <span class="fu">paste</span>(<span class="st">&quot;Comp.&quot;</span>, <span class="dv">1</span><span class="sc">:</span>ncMCR), <span class="at">bty =</span> <span class="st">&quot;n&quot;</span>,</span>
-<span id="cb17-18"><a href="présentation-de-la-ptr-tof-ms.html#cb17-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">lty =</span> <span class="dv">1</span>, <span class="at">col =</span> <span class="fu">alpha</span>(<span class="fu">viridis</span>(<span class="dv">5</span>), <span class="fl">0.8</span>), <span class="at">lwd =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">1</span>, <span class="dv">2</span>,</span>
-<span id="cb17-19"><a href="présentation-de-la-ptr-tof-ms.html#cb17-19" aria-hidden="true" tabindex="-1"></a>        <span class="dv">1</span>), <span class="at">cex =</span> <span class="fl">0.5</span>)</span></code></pre></div>
 <div class="figure" style="text-align: center"><span id="fig:MCRloadings"></span>
 <img src="MyBook_files/figure-html/MCRloadings-1.png" alt="Spectres purs, loadings MCR" width="80%" />
 <p class="caption">
-Figure 2.1: Spectres purs, loadings MCR
+Figure 5.1: Spectres purs, loadings MCR
 </p>
 </div>
-<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb18-1"><a href="présentation-de-la-ptr-tof-ms.html#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># dev.off()</span></span></code></pre></div>
 <p></p>
 <p></p>
-<div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb19-1"><a href="présentation-de-la-ptr-tof-ms.html#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="do">##</span></span>
-<span id="cb19-2"><a href="présentation-de-la-ptr-tof-ms.html#cb19-2" aria-hidden="true" tabindex="-1"></a>tC <span class="ot">&lt;-</span> <span class="fu">rownames</span>(tea.als<span class="sc">$</span>CList[[<span class="dv">1</span>]]) <span class="sc">%&gt;%</span></span>
-<span id="cb19-3"><a href="présentation-de-la-ptr-tof-ms.html#cb19-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">as.numeric</span>()</span>
-<span id="cb19-4"><a href="présentation-de-la-ptr-tof-ms.html#cb19-4" aria-hidden="true" tabindex="-1"></a>aa <span class="ot">&lt;-</span> <span class="dv">6</span></span>
-<span id="cb19-5"><a href="présentation-de-la-ptr-tof-ms.html#cb19-5" aria-hidden="true" tabindex="-1"></a>bb <span class="ot">&lt;-</span> <span class="dv">9</span></span>
-<span id="cb19-6"><a href="présentation-de-la-ptr-tof-ms.html#cb19-6" aria-hidden="true" tabindex="-1"></a><span class="co"># png(filename = &#39;images/lavandes_C_MCR.png&#39;, width = 600,</span></span>
-<span id="cb19-7"><a href="présentation-de-la-ptr-tof-ms.html#cb19-7" aria-hidden="true" tabindex="-1"></a><span class="co"># height = 750)</span></span>
-<span id="cb19-8"><a href="présentation-de-la-ptr-tof-ms.html#cb19-8" aria-hidden="true" tabindex="-1"></a><span class="fu">layout</span>(<span class="fu">matrix</span>(<span class="fu">c</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">4</span>, <span class="dv">5</span><span class="sc">:</span><span class="dv">8</span>, <span class="dv">9</span><span class="sc">:</span><span class="dv">12</span>), <span class="dv">4</span>, <span class="dv">3</span>), <span class="fu">c</span>(aa <span class="sc">+</span> <span class="dv">1</span>, aa, aa), <span class="fu">c</span>(bb,</span>
-<span id="cb19-9"><a href="présentation-de-la-ptr-tof-ms.html#cb19-9" aria-hidden="true" tabindex="-1"></a>    bb, bb, bb <span class="sc">+</span> <span class="dv">1</span>))</span>
-<span id="cb19-10"><a href="présentation-de-la-ptr-tof-ms.html#cb19-10" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">12</span>) {</span>
-<span id="cb19-11"><a href="présentation-de-la-ptr-tof-ms.html#cb19-11" aria-hidden="true" tabindex="-1"></a>    matC <span class="ot">&lt;-</span> tea.als<span class="sc">$</span>CList[[i]]</span>
-<span id="cb19-12"><a href="présentation-de-la-ptr-tof-ms.html#cb19-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (i <span class="sc">%in%</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>)</span>
-<span id="cb19-13"><a href="présentation-de-la-ptr-tof-ms.html#cb19-13" aria-hidden="true" tabindex="-1"></a>        <span class="fu">par</span>(<span class="at">mar =</span> <span class="fu">c</span>(<span class="fl">0.1</span>, <span class="dv">4</span>, <span class="fl">0.1</span>, <span class="fl">0.1</span>), <span class="at">mgp =</span> <span class="fu">c</span>(<span class="fl">2.5</span>, <span class="dv">1</span>, <span class="dv">0</span>), <span class="at">xaxt =</span> <span class="st">&quot;n&quot;</span>,</span>
-<span id="cb19-14"><a href="présentation-de-la-ptr-tof-ms.html#cb19-14" aria-hidden="true" tabindex="-1"></a>            <span class="at">yaxt =</span> <span class="st">&quot;s&quot;</span>, <span class="at">cex.lab =</span> <span class="fl">1.5</span>, <span class="at">cex.axis =</span> <span class="fl">1.5</span>)</span>
-<span id="cb19-15"><a href="présentation-de-la-ptr-tof-ms.html#cb19-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (i <span class="sc">%in%</span> <span class="dv">4</span>)</span>
-<span id="cb19-16"><a href="présentation-de-la-ptr-tof-ms.html#cb19-16" aria-hidden="true" tabindex="-1"></a>        <span class="fu">par</span>(<span class="at">mar =</span> <span class="fu">c</span>(<span class="dv">4</span>, <span class="dv">4</span>, <span class="fl">0.1</span>, <span class="fl">0.1</span>), <span class="at">mgp =</span> <span class="fu">c</span>(<span class="fl">2.5</span>, <span class="dv">1</span>, <span class="dv">0</span>), <span class="at">xaxt =</span> <span class="st">&quot;s&quot;</span>,</span>
-<span id="cb19-17"><a href="présentation-de-la-ptr-tof-ms.html#cb19-17" aria-hidden="true" tabindex="-1"></a>            <span class="at">yaxt =</span> <span class="st">&quot;s&quot;</span>, <span class="at">cex.lab =</span> <span class="fl">1.5</span>, <span class="at">cex.axis =</span> <span class="fl">1.5</span>)</span>
-<span id="cb19-18"><a href="présentation-de-la-ptr-tof-ms.html#cb19-18" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (i <span class="sc">%in%</span> <span class="fu">c</span>(<span class="dv">8</span>, <span class="dv">12</span>))</span>
-<span id="cb19-19"><a href="présentation-de-la-ptr-tof-ms.html#cb19-19" aria-hidden="true" tabindex="-1"></a>        <span class="fu">par</span>(<span class="at">mar =</span> <span class="fu">c</span>(<span class="dv">4</span>, <span class="fl">0.1</span>, <span class="fl">0.1</span>, <span class="fl">0.1</span>), <span class="at">mgp =</span> <span class="fu">c</span>(<span class="fl">2.5</span>, <span class="dv">1</span>, <span class="dv">0</span>), <span class="at">xaxt =</span> <span class="st">&quot;s&quot;</span>,</span>
-<span id="cb19-20"><a href="présentation-de-la-ptr-tof-ms.html#cb19-20" aria-hidden="true" tabindex="-1"></a>            <span class="at">yaxt =</span> <span class="st">&quot;n&quot;</span>, <span class="at">cex.lab =</span> <span class="fl">1.5</span>, <span class="at">cex.axis =</span> <span class="fl">1.5</span>)</span>
-<span id="cb19-21"><a href="présentation-de-la-ptr-tof-ms.html#cb19-21" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (i <span class="sc">%in%</span> <span class="fu">c</span>(<span class="dv">5</span><span class="sc">:</span><span class="dv">7</span>, <span class="dv">9</span><span class="sc">:</span><span class="dv">11</span>))</span>
-<span id="cb19-22"><a href="présentation-de-la-ptr-tof-ms.html#cb19-22" aria-hidden="true" tabindex="-1"></a>        <span class="fu">par</span>(<span class="at">mar =</span> <span class="fu">c</span>(<span class="fl">0.1</span>, <span class="fl">0.1</span>, <span class="fl">0.1</span>, <span class="fl">0.1</span>), <span class="at">mgp =</span> <span class="fu">c</span>(<span class="fl">2.5</span>, <span class="dv">1</span>, <span class="dv">0</span>),</span>
-<span id="cb19-23"><a href="présentation-de-la-ptr-tof-ms.html#cb19-23" aria-hidden="true" tabindex="-1"></a>            <span class="at">xaxt =</span> <span class="st">&quot;n&quot;</span>, <span class="at">yaxt =</span> <span class="st">&quot;n&quot;</span>, <span class="at">cex.lab =</span> <span class="fl">1.5</span>, <span class="at">cex.axis =</span> <span class="fl">1.5</span>)</span>
-<span id="cb19-24"><a href="présentation-de-la-ptr-tof-ms.html#cb19-24" aria-hidden="true" tabindex="-1"></a>    <span class="fu">matplot</span>(tC, matC, <span class="at">type =</span> <span class="st">&quot;l&quot;</span>, <span class="at">lty =</span> <span class="dv">1</span>, <span class="at">lwd =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">1</span>, <span class="dv">2</span>,</span>
-<span id="cb19-25"><a href="présentation-de-la-ptr-tof-ms.html#cb19-25" aria-hidden="true" tabindex="-1"></a>        <span class="dv">1</span>), <span class="at">col =</span> <span class="fu">alpha</span>(<span class="fu">viridis</span>(<span class="dv">5</span>), <span class="fl">0.8</span>), <span class="at">xlab =</span> <span class="st">&quot;Time of day (hour)&quot;</span>,</span>
-<span id="cb19-26"><a href="présentation-de-la-ptr-tof-ms.html#cb19-26" aria-hidden="true" tabindex="-1"></a>        <span class="at">ylab =</span> <span class="st">&quot;Intensity (u.a.)&quot;</span>)</span>
-<span id="cb19-27"><a href="présentation-de-la-ptr-tof-ms.html#cb19-27" aria-hidden="true" tabindex="-1"></a>    <span class="fu">abline</span>(<span class="at">v =</span> <span class="fu">c</span>(<span class="dv">6</span>, <span class="dv">22</span>), <span class="at">lty =</span> <span class="dv">2</span>, <span class="at">col =</span> <span class="fu">c</span>(<span class="st">&quot;darkgoldenrod1&quot;</span>, <span class="st">&quot;blue4&quot;</span>))</span>
-<span id="cb19-28"><a href="présentation-de-la-ptr-tof-ms.html#cb19-28" aria-hidden="true" tabindex="-1"></a>    <span class="fu">text</span>(<span class="dv">1</span>, <span class="fu">max</span>(matC) <span class="sc">*</span> <span class="fl">0.9</span>, <span class="at">labels =</span> name_ech[i], <span class="at">cex =</span> <span class="fl">1.5</span>)</span>
-<span id="cb19-29"><a href="présentation-de-la-ptr-tof-ms.html#cb19-29" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
 <div class="figure" style="text-align: center"><span id="fig:MCRscores"></span>
 <img src="MyBook_files/figure-html/MCRscores-1.png" alt="Evolution cinetique des spectres purs" width="80%" />
 <p class="caption">
-Figure 2.2: Evolution cinetique des spectres purs
+Figure 5.2: Evolution cinetique des spectres purs
 </p>
 </div>
-<div class="sourceCode" id="cb20"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb20-1"><a href="présentation-de-la-ptr-tof-ms.html#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># dev.off()</span></span></code></pre></div>
 <p></p>
 <p>Les spectres issus de ces expériences sont ensuite analysés avec des outils de chimiométrie pour explorer au maximum toute la complexité des données à traiter. Certains algorithmes, comme la MCR-ALS, permettent le développement de modèles multivoies pour prendre en compte l’aspect cinétique de la PTR-ToF-MS.</p>
-<p>J’ai utilisé l’algorithme de la MCR-ALS pour décomposer le spectre total en spectres purs( <a href="présentation-de-la-ptr-tof-ms.html#fig:MCRscores">2.2</a> ). Ces spectres purs sont des ensembles de COV représentatifs d’un phénomène propre. En optimisant la MCR-ALS, j’ai fait ressortir, entre autres, l’évolution de deux spectres purs montrant un double cycle d’émission journalier ( <a href="présentation-de-la-ptr-tof-ms.html#fig:MCRscores">2.2</a> ). La première activité intervient peu après l’aube, atteint un pic d’émission autour de 8h et diminue rapidement pour retrouver un niveau comparable au niveau initial vers midi. La seconde activité plus tardive augmente jusqu’à un plateau atteint vers midi et se prolonge jusqu’à 16h pour décroître par la suite.</p>
+<p>J’ai utilisé l’algorithme de la MCR-ALS pour décomposer le spectre total en spectres purs( <a href="présentation-de-la-ptr-tof-ms.html#fig:MCRscores">5.2</a> ). Ces spectres purs sont des ensembles de COV représentatifs d’un phénomène propre. En optimisant la MCR-ALS, j’ai fait ressortir, entre autres, l’évolution de deux spectres purs montrant un double cycle d’émission journalier ( <a href="présentation-de-la-ptr-tof-ms.html#fig:MCRscores">5.2</a> ). La première activité intervient peu après l’aube, atteint un pic d’émission autour de 8h et diminue rapidement pour retrouver un niveau comparable au niveau initial vers midi. La seconde activité plus tardive augmente jusqu’à un plateau atteint vers midi et se prolonge jusqu’à 16h pour décroître par la suite.</p>
 <div style="page-break-after: always;"></div>
 </div>
-<div id="bibliographie" class="section level2" number="2.5">
-<h2><span class="header-section-number">2.5</span> Bibliographie</h2>
+<div id="bibliographie" class="section level2" number="5.5">
+<h2><span class="header-section-number">5.5</span> Bibliographie</h2>
 
 <p>This template is based on <em>Bookdown</em> and the <em>Memoir</em> LaTeX class to allow writing a book, a report, a PhD thesis, etc. in <em>R Markdown</em>.</p>
 <p>The main file is <em>index.Rmd</em> which contains the description of the book in its header. All other <em>.Rmd</em> files in the folder contain a chapter.
@@ -353,6 +293,68 @@ The <em>references.bib</em> file contains the bibliography.</p>
 <p>To get started, create a new R project from this folder.
 Then open <em>index.Rmd</em> and click on the <em>Build Book</em> button in the <em>Build</em> window of Rstudio.</p>
 
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div class="csl-entry">
+Babcock, L. M., and N. G. Adams. 2001. <em>Advances in <span>Gas</span> <span>Phase</span> <span>Ion</span> <span>Chemistry</span>, <span>Volume</span> 4 - 1st <span>Edition</span></em>. 1st ed. Vol. 4. <a href="https://www-elsevier-com.inee.bib.cnrs.fr/books/advances-in-gas-phase-ion-chemistry/babcock/978-0-444-50929-1">https://www-elsevier-com.inee.bib.cnrs.fr/books/advances-in-gas-phase-ion-chemistry/babcock/978-0-444-50929-1</a>.
+</div>
+<div class="csl-entry">
+Blake, Robert S., Christopher Whyte, Ceri O. Hughes, Andrew M. Ellis, and Paul S. Monks. 2004. <span>“Demonstration of Proton-Transfer Reaction Time-of-Flight Mass Spectrometry for Real-Time Analysis of Trace Volatile Organic Compounds.”</span> <em>Anal Chem</em> 76 (13): 3841–45. <a href="https://doi.org/10.1021/ac0498260">https://doi.org/10.1021/ac0498260</a>.
+</div>
+<div class="csl-entry">
+Cappellin, Luca, Franco Biasioli, Alessandra Fabris, Erna Schuhfried, Christos Soukoulis, Tilmann D. Märk, and Flavia Gasperi. 2010. <span>“Improved Mass Accuracy in <span>PTR</span>-<span>TOF</span>-<span>MS</span>: <span>Another</span> Step Towards Better Compound Identification in <span>PTR</span>-<span>MS</span>.”</span> <em>International Journal of Mass Spectrometry</em> 290 (1): 60–63. <a href="https://doi.org/10.1016/j.ijms.2009.11.007">https://doi.org/10.1016/j.ijms.2009.11.007</a>.
+</div>
+<div class="csl-entry">
+Cappellin, Luca, Franco Biasioli, Pablo M. Granitto, Erna Schuhfried, Christos Soukoulis, Fabrizio Costa, Tilmann D. Märk, and Flavia Gasperi. 2011. <span>“On Data Analysis in <span>PTR</span>-<span>TOF</span>-<span>MS</span>: <span>From</span> Raw Spectra to Data Mining.”</span> <em>Sensors and Actuators B: Chemical</em> 155 (1): 183–90. <a href="https://doi.org/10.1016/j.snb.2010.11.044">https://doi.org/10.1016/j.snb.2010.11.044</a>.
+</div>
+<div class="csl-entry">
+Claflin, M. S., D. Pagonis, Z. Finewax, A. V. Handschy, D. A. Day, W. L. Brown, J. T. Jayne, et al. 2021. <span>“An in Situ Gas Chromatograph with Automatic Detector Switching Between <span>PTR</span>- and <span>EI</span>-<span>TOF</span>-<span>MS</span>: Isomer-Resolved Measurements of Indoor Air.”</span> <em>Atmospheric Measurement Techniques</em> 14 (1): 133–52. <a href="https://doi.org/10.5194/amt-14-133-2021">https://doi.org/10.5194/amt-14-133-2021</a>.
+</div>
+<div class="csl-entry">
+Deuscher, Zoé, Isabelle Andriot, Etienne Sémon, Marie Repoux, Sébastien Preys, Jean-Michel Roger, Renaud Boulanger, Hélène Labouré, and Jean-Luc Le Quéré. 2019. <span>“Volatile Compounds Profiling by Using Proton Transfer Reaction-Time of Flight-Mass Spectrometry (<span>PTR</span>-<span>ToF</span>-<span>MS</span>). <span>The</span> Case Study of Dark Chocolates Organoleptic Differences.”</span> <em>J Mass Spectrom</em> 54 (1): 92–119. <a href="https://doi.org/10.1002/jms.4317">https://doi.org/10.1002/jms.4317</a>.
+</div>
+<div class="csl-entry">
+Ennis, C. J., J. C. Reynolds, B. J. Keely, and L. J. Carpenter. 2005. <span>“A Hollow Cathode Proton Transfer Reaction Time of Flight Mass Spectrometer.”</span> <em>International Journal of Mass Spectrometry</em> 247 (1): 72–80. <a href="https://doi.org/10.1016/j.ijms.2005.09.008">https://doi.org/10.1016/j.ijms.2005.09.008</a>.
+</div>
+<div class="csl-entry">
+Graus, Martin, Markus Müller, and Armin Hansel. 2010. <span>“High Resolution <span>PTR</span>-<span>TOF</span>: <span>Quantification</span> and Formula Confirmation of <span>VOC</span> in Real Time.”</span> <em>J Am Soc Mass Spectrom</em> 21 (6): 1037–44. <a href="https://doi.org/10.1016/j.jasms.2010.02.006">https://doi.org/10.1016/j.jasms.2010.02.006</a>.
+</div>
+<div class="csl-entry">
+Hansel, A., A. Jordan, R. Holzinger, P. Prazeller, W. Vogel, and W. Lindinger. 1995. <span>“Proton Transfer Reaction Mass Spectrometry: On-Line Trace Gas Analysis at the Ppb Level.”</span> <em>International Journal of Mass Spectrometry and Ion Processes</em>, Honour <span>Biography</span> <span>David</span> <span>Smith</span>, 149-150 (November): 609–19. <a href="https://doi.org/10.1016/0168-1176(95)04294-U">https://doi.org/10.1016/0168-1176(95)04294-U</a>.
+</div>
+<div class="csl-entry">
+Holzinger, R. 2015. <span>“<span>PTRwid</span>: <span>A</span> New Widget Tool for Processing <span>PTR</span>-<span>TOF</span>-<span>MS</span> Data.”</span> <em>Atmos. Meas. Tech.</em> 8 (9): 3903–22. <a href="https://doi.org/10.5194/amt-8-3903-2015">https://doi.org/10.5194/amt-8-3903-2015</a>.
+</div>
+<div class="csl-entry">
+IGN. 2013. <span>“<span>RGE</span> <span>ALTI</span>® <span>Version</span> 2.0 - <span>Descriptif</span> de Contenu.”</span>
+</div>
+<div class="csl-entry">
+Inomata, Satoshi, Hiroshi Tanimoto, Nobuyuki Aoki, Jun Hirokawa, and Yasuhiro Sadanaga. 2006. <span>“A Novel Discharge Source of Hydronium Ions for Proton Transfer Reaction Ionization: Design, Characterization, and Performance.”</span> <em>Rapid Communications in Mass Spectrometry</em> 20 (6): 1025–29. <a href="https://doi.org/10.1002/rcm.2405">https://doi.org/10.1002/rcm.2405</a>.
+</div>
+<div class="csl-entry">
+Jordan, A., S. Haidacher, G. Hanel, E. Hartungen, L. Märk, H. Seehauser, R. Schottkowsky, P. Sulzer, and T. D. Märk. 2009. <span>“A High Resolution and High Sensitivity Proton-Transfer-Reaction Time-of-Flight Mass Spectrometer (<span>PTR</span>-<span>TOF</span>-<span>MS</span>).”</span> <em>International Journal of Mass Spectrometry</em> 286 (2-3): 122–28. <a href="https://doi.org/10.1016/j.ijms.2009.07.005">https://doi.org/10.1016/j.ijms.2009.07.005</a>.
+</div>
+<div class="csl-entry">
+Krechmer, Jordan, Felipe Lopez-Hilfiker, Abigail Koss, Manuel Hutterli, Carsten Stoermer, Benjamin Deming, Joel Kimmel, et al. 2018. <span>“Evaluation of a <span>New</span> <span>Reagent</span>-<span>Ion</span> <span>Source</span> and <span>Focusing</span> <span>Ion</span>–<span>Molecule</span> <span>Reactor</span> for <span>Use</span> in <span>Proton</span>-<span>Transfer</span>-<span>Reaction</span> <span>Mass</span> <span>Spectrometry</span>.”</span> <em>Anal. Chem.</em> 90 (20): 12011–18. <a href="https://doi.org/10.1021/acs.analchem.8b02641">https://doi.org/10.1021/acs.analchem.8b02641</a>.
+</div>
+<div class="csl-entry">
+Lagg, A., J. Taucher, A. Hansel, and W. Lindinger. 1994. <span>“Applications of Proton Transfer Reactions to Gas Analysis.”</span> <em>International Journal of Mass Spectrometry and Ion Processes</em> 134 (1): 55–66. <a href="https://doi.org/10.1016/0168-1176(94)03965-8">https://doi.org/10.1016/0168-1176(94)03965-8</a>.
+</div>
+<div class="csl-entry">
+Lindinger, W., A. Hansel, and A. Jordan. 1998. <span>“On-Line Monitoring of Volatile Organic Compounds at Pptv Levels by Means of Proton-Transfer-Reaction Mass Spectrometry (<span>PTR</span>-<span>MS</span>) Medical Applications, Food Control and Environmental Research.”</span> <em>International Journal of Mass Spectrometry and Ion Processes</em> 173 (3): 191–241. <a href="https://doi.org/10.1016/S0168-1176(97)00281-4">https://doi.org/10.1016/S0168-1176(97)00281-4</a>.
+</div>
+<div class="csl-entry">
+Lindinger, W., J. Hirber, and H. Paretzke. 1993. <span>“An Ion/Molecule-Reaction Mass Spectrometer Used for on-Line Trace Gas Analysis.”</span> <em>International Journal of Mass Spectrometry and Ion Processes</em> 129 (November): 79–88. <a href="https://doi.org/10.1016/0168-1176(93)87031-M">https://doi.org/10.1016/0168-1176(93)87031-M</a>.
+</div>
+<div class="csl-entry">
+Lindinger, W., and A. Jordan. 1998. <span>“Proton-Transfer-Reaction Mass Spectrometry (<span>PTR</span>–<span>MS</span>): On-Line Monitoring of Volatile Organic Compounds at Pptv Levels.”</span> <em>Chem. Soc. Rev.</em> 27 (5): 347–75. <a href="https://doi.org/10.1039/A827347Z">https://doi.org/10.1039/A827347Z</a>.
+</div>
+<div class="csl-entry">
+Lindinger, W, K Leiter, and M Andriollo. 1991. <span>“Industrial <span>Multicomponent</span> <span>Gas</span> <span>Analysis</span>.”</span> <em>Ionen-Technik GmbH</em> 20 (7): 24–25.
+</div>
+<div class="csl-entry">
+Tanimoto, Hiroshi, Nobuyuki Aoki, Satoshi Inomata, Jun Hirokawa, and Yasuhiro Sadanaga. 2007. <span>“Development of a <span>PTR</span>-<span>TOFMS</span> Instrument for Real-Time Measurements of Volatile Organic Compounds in Air.”</span> <em>International Journal of Mass Spectrometry</em> 263 (1): 1–11. <a href="https://doi.org/10.1016/j.ijms.2007.01.009">https://doi.org/10.1016/j.ijms.2007.01.009</a>.
+</div>
+</div>
 </div>
 </div>
 
@@ -366,6 +368,66 @@ Then open <em>index.Rmd</em> and click on the <em>Build Book</em> button in the 
 
 
 
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-babcock_2001" class="csl-entry">
+Babcock, L. M., and N. G. Adams. 2001. <em>Advances in <span>Gas</span> <span>Phase</span> <span>Ion</span> <span>Chemistry</span>, <span>Volume</span> 4 - 1st <span>Edition</span></em>. 1st ed. Vol. 4. <a href="https://www-elsevier-com.inee.bib.cnrs.fr/books/advances-in-gas-phase-ion-chemistry/babcock/978-0-444-50929-1">https://www-elsevier-com.inee.bib.cnrs.fr/books/advances-in-gas-phase-ion-chemistry/babcock/978-0-444-50929-1</a>.
+</div>
+<div id="ref-blake_2004" class="csl-entry">
+Blake, Robert S., Christopher Whyte, Ceri O. Hughes, Andrew M. Ellis, and Paul S. Monks. 2004. <span>“Demonstration of Proton-Transfer Reaction Time-of-Flight Mass Spectrometry for Real-Time Analysis of Trace Volatile Organic Compounds.”</span> <em>Anal Chem</em> 76 (13): 3841–45. <a href="https://doi.org/10.1021/ac0498260">https://doi.org/10.1021/ac0498260</a>.
+</div>
+<div id="ref-cappellin_2010" class="csl-entry">
+Cappellin, Luca, Franco Biasioli, Alessandra Fabris, Erna Schuhfried, Christos Soukoulis, Tilmann D. Märk, and Flavia Gasperi. 2010. <span>“Improved Mass Accuracy in <span>PTR</span>-<span>TOF</span>-<span>MS</span>: <span>Another</span> Step Towards Better Compound Identification in <span>PTR</span>-<span>MS</span>.”</span> <em>International Journal of Mass Spectrometry</em> 290 (1): 60–63. <a href="https://doi.org/10.1016/j.ijms.2009.11.007">https://doi.org/10.1016/j.ijms.2009.11.007</a>.
+</div>
+<div id="ref-cappellin_2011" class="csl-entry">
+Cappellin, Luca, Franco Biasioli, Pablo M. Granitto, Erna Schuhfried, Christos Soukoulis, Fabrizio Costa, Tilmann D. Märk, and Flavia Gasperi. 2011. <span>“On Data Analysis in <span>PTR</span>-<span>TOF</span>-<span>MS</span>: <span>From</span> Raw Spectra to Data Mining.”</span> <em>Sensors and Actuators B: Chemical</em> 155 (1): 183–90. <a href="https://doi.org/10.1016/j.snb.2010.11.044">https://doi.org/10.1016/j.snb.2010.11.044</a>.
+</div>
+<div id="ref-amt-14-133-2021" class="csl-entry">
+Claflin, M. S., D. Pagonis, Z. Finewax, A. V. Handschy, D. A. Day, W. L. Brown, J. T. Jayne, et al. 2021. <span>“An in Situ Gas Chromatograph with Automatic Detector Switching Between <span>PTR</span>- and <span>EI</span>-<span>TOF</span>-<span>MS</span>: Isomer-Resolved Measurements of Indoor Air.”</span> <em>Atmospheric Measurement Techniques</em> 14 (1): 133–52. <a href="https://doi.org/10.5194/amt-14-133-2021">https://doi.org/10.5194/amt-14-133-2021</a>.
+</div>
+<div id="ref-deuscher_2019" class="csl-entry">
+Deuscher, Zoé, Isabelle Andriot, Etienne Sémon, Marie Repoux, Sébastien Preys, Jean-Michel Roger, Renaud Boulanger, Hélène Labouré, and Jean-Luc Le Quéré. 2019. <span>“Volatile Compounds Profiling by Using Proton Transfer Reaction-Time of Flight-Mass Spectrometry (<span>PTR</span>-<span>ToF</span>-<span>MS</span>). <span>The</span> Case Study of Dark Chocolates Organoleptic Differences.”</span> <em>J Mass Spectrom</em> 54 (1): 92–119. <a href="https://doi.org/10.1002/jms.4317">https://doi.org/10.1002/jms.4317</a>.
+</div>
+<div id="ref-ennis_2005" class="csl-entry">
+Ennis, C. J., J. C. Reynolds, B. J. Keely, and L. J. Carpenter. 2005. <span>“A Hollow Cathode Proton Transfer Reaction Time of Flight Mass Spectrometer.”</span> <em>International Journal of Mass Spectrometry</em> 247 (1): 72–80. <a href="https://doi.org/10.1016/j.ijms.2005.09.008">https://doi.org/10.1016/j.ijms.2005.09.008</a>.
+</div>
+<div id="ref-graus_2010" class="csl-entry">
+Graus, Martin, Markus Müller, and Armin Hansel. 2010. <span>“High Resolution <span>PTR</span>-<span>TOF</span>: <span>Quantification</span> and Formula Confirmation of <span>VOC</span> in Real Time.”</span> <em>J Am Soc Mass Spectrom</em> 21 (6): 1037–44. <a href="https://doi.org/10.1016/j.jasms.2010.02.006">https://doi.org/10.1016/j.jasms.2010.02.006</a>.
+</div>
+<div id="ref-hansel_1995" class="csl-entry">
+Hansel, A., A. Jordan, R. Holzinger, P. Prazeller, W. Vogel, and W. Lindinger. 1995. <span>“Proton Transfer Reaction Mass Spectrometry: On-Line Trace Gas Analysis at the Ppb Level.”</span> <em>International Journal of Mass Spectrometry and Ion Processes</em>, Honour <span>Biography</span> <span>David</span> <span>Smith</span>, 149-150 (November): 609–19. <a href="https://doi.org/10.1016/0168-1176(95)04294-U">https://doi.org/10.1016/0168-1176(95)04294-U</a>.
+</div>
+<div id="ref-holzinger_2015" class="csl-entry">
+Holzinger, R. 2015. <span>“<span>PTRwid</span>: <span>A</span> New Widget Tool for Processing <span>PTR</span>-<span>TOF</span>-<span>MS</span> Data.”</span> <em>Atmos. Meas. Tech.</em> 8 (9): 3903–22. <a href="https://doi.org/10.5194/amt-8-3903-2015">https://doi.org/10.5194/amt-8-3903-2015</a>.
+</div>
+<div id="ref-inomata_2006" class="csl-entry">
+Inomata, Satoshi, Hiroshi Tanimoto, Nobuyuki Aoki, Jun Hirokawa, and Yasuhiro Sadanaga. 2006. <span>“A Novel Discharge Source of Hydronium Ions for Proton Transfer Reaction Ionization: Design, Characterization, and Performance.”</span> <em>Rapid Communications in Mass Spectrometry</em> 20 (6): 1025–29. <a href="https://doi.org/10.1002/rcm.2405">https://doi.org/10.1002/rcm.2405</a>.
+</div>
+<div id="ref-jordan_2009" class="csl-entry">
+Jordan, A., S. Haidacher, G. Hanel, E. Hartungen, L. Märk, H. Seehauser, R. Schottkowsky, P. Sulzer, and T. D. Märk. 2009. <span>“A High Resolution and High Sensitivity Proton-Transfer-Reaction Time-of-Flight Mass Spectrometer (<span>PTR</span>-<span>TOF</span>-<span>MS</span>).”</span> <em>International Journal of Mass Spectrometry</em> 286 (2-3): 122–28. <a href="https://doi.org/10.1016/j.ijms.2009.07.005">https://doi.org/10.1016/j.ijms.2009.07.005</a>.
+</div>
+<div id="ref-krechmer_2018" class="csl-entry">
+Krechmer, Jordan, Felipe Lopez-Hilfiker, Abigail Koss, Manuel Hutterli, Carsten Stoermer, Benjamin Deming, Joel Kimmel, et al. 2018. <span>“Evaluation of a <span>New</span> <span>Reagent</span>-<span>Ion</span> <span>Source</span> and <span>Focusing</span> <span>Ion</span>–<span>Molecule</span> <span>Reactor</span> for <span>Use</span> in <span>Proton</span>-<span>Transfer</span>-<span>Reaction</span> <span>Mass</span> <span>Spectrometry</span>.”</span> <em>Anal. Chem.</em> 90 (20): 12011–18. <a href="https://doi.org/10.1021/acs.analchem.8b02641">https://doi.org/10.1021/acs.analchem.8b02641</a>.
+</div>
+<div id="ref-lagg_1994" class="csl-entry">
+Lagg, A., J. Taucher, A. Hansel, and W. Lindinger. 1994. <span>“Applications of Proton Transfer Reactions to Gas Analysis.”</span> <em>International Journal of Mass Spectrometry and Ion Processes</em> 134 (1): 55–66. <a href="https://doi.org/10.1016/0168-1176(94)03965-8">https://doi.org/10.1016/0168-1176(94)03965-8</a>.
+</div>
+<div id="ref-lindinger_1998a" class="csl-entry">
+Lindinger, W., A. Hansel, and A. Jordan. 1998. <span>“On-Line Monitoring of Volatile Organic Compounds at Pptv Levels by Means of Proton-Transfer-Reaction Mass Spectrometry (<span>PTR</span>-<span>MS</span>) Medical Applications, Food Control and Environmental Research.”</span> <em>International Journal of Mass Spectrometry and Ion Processes</em> 173 (3): 191–241. <a href="https://doi.org/10.1016/S0168-1176(97)00281-4">https://doi.org/10.1016/S0168-1176(97)00281-4</a>.
+</div>
+<div id="ref-lindinger_1993" class="csl-entry">
+Lindinger, W., J. Hirber, and H. Paretzke. 1993. <span>“An Ion/Molecule-Reaction Mass Spectrometer Used for on-Line Trace Gas Analysis.”</span> <em>International Journal of Mass Spectrometry and Ion Processes</em> 129 (November): 79–88. <a href="https://doi.org/10.1016/0168-1176(93)87031-M">https://doi.org/10.1016/0168-1176(93)87031-M</a>.
+</div>
+<div id="ref-lindinger_1998" class="csl-entry">
+Lindinger, W., and A. Jordan. 1998. <span>“Proton-Transfer-Reaction Mass Spectrometry (<span>PTR</span>–<span>MS</span>): On-Line Monitoring of Volatile Organic Compounds at Pptv Levels.”</span> <em>Chem. Soc. Rev.</em> 27 (5): 347–75. <a href="https://doi.org/10.1039/A827347Z">https://doi.org/10.1039/A827347Z</a>.
+</div>
+<div id="ref-lindinger_1991" class="csl-entry">
+Lindinger, W, K Leiter, and M Andriollo. 1991. <span>“Industrial <span>Multicomponent</span> <span>Gas</span> <span>Analysis</span>.”</span> <em>Ionen-Technik GmbH</em> 20 (7): 24–25.
+</div>
+<div id="ref-tanimoto_2007" class="csl-entry">
+Tanimoto, Hiroshi, Nobuyuki Aoki, Satoshi Inomata, Jun Hirokawa, and Yasuhiro Sadanaga. 2007. <span>“Development of a <span>PTR</span>-<span>TOFMS</span> Instrument for Real-Time Measurements of Volatile Organic Compounds in Air.”</span> <em>International Journal of Mass Spectrometry</em> 263 (1): 1–11. <a href="https://doi.org/10.1016/j.ijms.2007.01.009">https://doi.org/10.1016/j.ijms.2007.01.009</a>.
+</div>
+</div>
 <div class="footnotes">
 <hr />
 <ol start="1">
@@ -382,7 +444,7 @@ Then open <em>index.Rmd</em> and click on the <em>Build Book</em> button in the 
           </div>
         </div>
       </div>
-<a href="notes-atelier-rmarkdown.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="aperçu-des-données.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 
     </div>
   </div>

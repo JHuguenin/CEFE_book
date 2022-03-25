@@ -50,7 +50,7 @@ Pour illustrer cela, je présenterais une expérience sur les lavandes. Cette ex
 
 Nous avons mis en place quatre chambres de mesure permettant chacune soit d'isoler un plant de lavande soit d'être un blanc. Ces chambres de mesure sont des cylindres en plastique, ventilés, de volumes équivalents et reliés à un flux d'air zéro d'un débit de 5 litres/min. La longueur et le volume des lignes reliant les chambres à l'instrument de mesure n'étaient pas identiques. Nous avons lancé des acquisitions sur les quatre chambres séquentiellement durant 48h. Nous avons répété ce processus deux fois, pour obtenir neuf plants au total dans notre plan d'expérience (cf. \@ref(tab:PlanXP)).
 
-```{r PlanXP}
+```{r PlanXP, echo = FALSE}
 load("data/tea_als_lav.RData")
 library(magrittr)
 library(lubridate)
@@ -77,7 +77,7 @@ nech <- length(tea.als$CList)
 
 ## Résultats de la MCR
 
-```{r MCRloadings, fig.cap="Spectres purs, loadings MCR", fig.width= 5, fig.height= 3}
+```{r MCRloadings, echo = FALSE, fig.cap="Spectres purs, loadings MCR", fig.width= 5, fig.height= 3}
 ###################
 fmr <- dim(tea.als$S)
 matS <- seq(1,0,-.25,) %>% matrix(fmr[1],fmr[2],byrow = TRUE)
@@ -97,7 +97,7 @@ layout(1,1,1)
 #dev.off()
 ```
 
-```{r MCRscores, fig.cap="Evolution cinetique des spectres purs", fig.width= 5, fig.height= 3}
+```{r MCRscores,echo = FALSE, fig.cap="Evolution cinetique des spectres purs", fig.width= 5, fig.height= 3}
 ##
 tC <- rownames(tea.als$CList[[1]]) %>% as.numeric()
 aa <- 6

@@ -1,10 +1,10 @@
 --- 
-title: "Title of the Memoir"
-author: "Authors' names"
+title: "Atelier Rmarkdown et memoiR"
+author: "CEFE R users"
 date: "`r Sys.Date()`"
 url: https://GitHubID.github.io/Repository/
 github-repo: GitHubID/Repository
-description: "Bookdown template based on LaTeX memoir class"
+description: "Resume de l'atelier Rmarkdown et memoiR du 25 mars 2022"
 cover-image: "images/logo.png"
 # Title page...
 maintitlepage:
@@ -18,7 +18,7 @@ maintitlepage:
   credits: |
     Name of the owner of the logo
     
-    \url{http://www.company.com}
+    \url{https://www.cefe.cnrs.fr/fr/}
     
     An explanatory sentence.
     Leave an empty line for line breaks.
@@ -63,7 +63,7 @@ secnum-depth: section
 lot: false
 lof: true
 # Bibliography
-bibliography: references.bib
+bibliography: biblio/references.bib
 biblatexoptions:
   - backend=biber
   - style=authoryear-ibid  # or verbose-inote with large margins
@@ -152,6 +152,7 @@ knitr::write_bib(Packages, file="packages.bib")
 knitr::opts_chunk$set(
   cache=FALSE, # Cache chunk results
   echo = TRUE, # Show/Hide R chunks
+  message = FALSE,
   warning=FALSE, # Show/Hide warnings
   # Figure alignment and size
   fig.align='center', out.width='80%', fig.asp=.75,
@@ -173,37 +174,6 @@ knitr::opts_chunk$set(dev.args=list(bg="transparent"))
 # Random seed
 set.seed(973)
 ```
-
-
-# Introduction {-}
-
-This document allows you to create a book in PDF format (and ePub format) at the same time as an HTML version to be published on the web.
-The syntax is that of **Markdown** with some extensions.
-
-The **bookdown** package must be installed from CRAN or GitHub:
-
-```{r eval=FALSE}
-install.packages("bookdown")
-# or the development version
-# devtools::install_github("rstudio/bookdown")
-```
-
-The book is organized in chapters. 
-Each chapter is an Rmd file, whose name normally begins with its number (e.g. `01-intro.Rmd`).
-All Rmd files in the project folder are actually treated as chapters, sorted by filename.
-The index.Rmd file is special: it contains the document header and the first chapter.
-
-This first chapter is placed in the foreword of the printed book: it should not be numbered (hence the `{-}` code next to the title) in the HTML version.
-It must end with the LaTeX command `\mainmatter` which marks the beginning of the body of the book.
-
-The outline levels start with `#` for chapters (only one per file), `##` for sections, etc.
-
-Compilation in PDF format is done by XeLaTeX, which must be installed.
-
-While writing, it is strongly advised to create only the HTML file, which is much faster than a LaTeX compilation.
-Each chapter can be viewed very quickly by clicking on the _Knit_ button above the source window.
-The entire book is created by clicking on the _Build Book_ button in the RStudio _Build_ window.
-The button's drop-down list allows you to create all documents or limit yourself to one format.
 
 <!-- The \mainmatter command marks the beginning of the LaTeX document body--> 
 <!-- It must not be deleted-->

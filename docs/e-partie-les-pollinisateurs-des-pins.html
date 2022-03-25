@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Memoir Template</title>
+  <title>3 2e partie : les pollinisateurs des pins | Memoir Template</title>
   <meta name="description" content="Resume de l’atelier Rmarkdown et memoiR du 25 mars 2022" />
   <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Memoir Template" />
+  <meta property="og:title" content="3 2e partie : les pollinisateurs des pins | Memoir Template" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="https://GitHubID.github.io/Repository/" />
   <meta property="og:image" content="https://GitHubID.github.io/Repository//images/logo.png" />
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="GitHubID/Repository" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Memoir Template" />
+  <meta name="twitter:title" content="3 2e partie : les pollinisateurs des pins | Memoir Template" />
   
   <meta name="twitter:description" content="Resume de l’atelier Rmarkdown et memoiR du 25 mars 2022" />
   <meta name="twitter:image" content="https://GitHubID.github.io/Repository//images/logo.png" />
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="les-pinèdes.html"/>
+<link rel="prev" href="les-pinèdes.html"/>
+<link rel="next" href="aperçu-des-données.html"/>
 <script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -219,152 +219,151 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">Memoir Template</h1>
-<p class="author"><em>CEFE R users</em></p>
-<p class="date" style="margin-top: 1.5em;"><em>2022-03-25</em></p>
-</div>
-<div id="notes-atelier-rmarkdown" class="section level1" number="1">
-<h1><span class="header-section-number">1</span> Notes Atelier Rmarkdown</h1>
-<p>Autrices et auteurs :</p>
-<ul>
-<li>Joris Huguenin</li>
-<li>Clara Gritti</li>
-<li>Camila Leandro</li>
-<li>Nathalie Zeballos</li>
-<li>Océane Cobelli
-Ce document est une prise de notes collaboratives de l’atelier Rmarkdown effectué au CEFE le 25 mars 2022.</li>
-</ul>
-<div id="pourquoi-utiliser-rmarkdown" class="section level2" number="1.1">
-<h2><span class="header-section-number">1.1</span> Pourquoi utiliser Rmarkdown ?</h2>
-<p>Utiliser word, notamment pour des documents longs et complexes, peut rapidement être plus couteux en termes d’effort.</p>
-<p><a href="https://bookdown.org/yihui/rmarkdown/">https://bookdown.org/yihui/rmarkdown/</a></p>
-<p>WISYMIG &amp; WISYMIM (sont sur un bâteau ? ) What you see is what you get (word, openoffice) VS What you see is what you mean (Rmarkdown). Sous R, nous pouvons écrire un script qui peut être exporté en .rmd. La fonction knitr (petit bouton sous Rstudio avec une pelotte de laine) permet ensuite de compiler et exporter sous différents formats (.tex (et .pdf), .docx, .html).</p>
-<p>Pour plus d’informations <a href="https://stateofther.github.io/finistR2018/atelier3_advancedrmd.html">https://stateofther.github.io/finistR2018/atelier3_advancedrmd.html</a></p>
-<p><a href="https://ismayc.github.io/rbasics-book/5-rmdanal.html">https://ismayc.github.io/rbasics-book/5-rmdanal.html</a></p>
-<p>Avantage d’utiliser le package memoiR au lieu de simplement Markdown: Création d’un ensemble de fichiers (cf plus bas) pour gérer plus facilement des documents plus longs/complexes (thèse, livre), avec un fichier rmd par chapitre (gain de temps pour knitter, interchanger position des chp etc).</p>
-</div>
-<div id="profil-des-utilisateurs-de-latelier" class="section level2" number="1.2">
-<h2><span class="header-section-number">1.2</span> Profil des utilisateurs de l’atelier</h2>
-<ul>
-<li>scripts R : 8 TB / 5 BOF [sur 13 partcipants]</li>
-<li>projets R : 10 oui /3 non [Joris nous parle importance de faire des projets à chaque début de projet, notamment pour l’utilisation de Git]</li>
-<li>Git (Github, GitLab, …) : 4 [le CNRS va déployer un GitLab]</li>
-<li>BibTex : 10 oui / 3 non [Logiciels type Zotero,… // memoiR utilise très bien les documents .bib]</li>
-<li>Rmarkdown : 8.5 oui / 4.5 non</li>
-<li>LaTeX : 1 oui / 12 non</li>
-<li>Beamer : [outil pour construire des présentations ; avantages : facile à faire / désaventages : moins intuitif que powerpoint]</li>
-<li>MemoiR : personne ne l’a déjà utilisé</li>
-</ul>
-</div>
-<div id="compilation-dans-rstudio" class="section level2" number="1.3">
-<h2><span class="header-section-number">1.3</span> Compilation dans Rstudio</h2>
-<p>Écrire un fichier .rmd avec un peu de texte, de l’import de data, et un résultat sous forme de tableau ou graphe.</p>
-<p>Déposer les fichiers .rmd ici : <a href="https://mycore.core-cloud.net/index.php/s/cdMB0VkkrYplVk3">https://mycore.core-cloud.net/index.php/s/cdMB0VkkrYplVk3</a> et les annexes dans les dossiers correspondants.</p>
-<div id="le-fichier-.rmd" class="section level3" number="1.3.1">
-<h3><span class="header-section-number">1.3.1</span> Le fichier .rmd</h3>
-<p>La cheatsheet : <a href="https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf">https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf</a></p>
-<p>Le guide de référence : <a href="https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf">https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf</a></p>
-</div>
-<div id="comment-gére-t-on-la-bibliographie" class="section level3" number="1.3.2">
-<h3><span class="header-section-number">1.3.2</span> Comment gére-t-on la bibliographie ?</h3>
-<p>citr : package pour faire sa bibliographie (une recherche du nom de l’auteur permet d’insérer la réfernce). Pour en savoir plus : <a href="https://github.com/crsh/citr">https://github.com/crsh/citr</a> Après l’installation du package, il peut être nécessaire de quitter/rouvrir le projet pour que l’option “Insert citation” apparaisse dans le volet de “Addins.” /! Le package peut ne pas être disponible pour certaines versions de R.</p>
-<p>On n’est pas obligé d’installer citr si on a précisé le fichier .bib dans le YAML, on peut utiliser @… (fonctionne en mode “compas,” pas en mode “normal”). Avec le @, on accède au .bib et à la bibliothèque principale de zotero.</p>
-<p>Aternative, utiliser les clés de citation bibTex avec les logiciels de gestion de bibliographie :</p>
-<p>Zotero -&gt; extension Better BibTex [<a href="https://retorque.re/zotero-better-bibtex/">https://retorque.re/zotero-better-bibtex/</a>], crée une clé de citation pour chaque biblio -&gt; extraction d’un fichier bibtex lu par R (fichier .bib en UTF-8) -&gt; on le range dans un dossier /biblio dans notre projet R -&gt; pour l’importer dans le fichier Rmd on écrit dans l’en-tête du document (YAML) : “bibliography : biblio/nomdufichier.bib” ; on peut aussi ajouter des options pour les citations avec biblatexoptions</p>
-<p>Pour Mendeley il y a cette aide en ligne <a href="https://blog.mendeley.com/2011/10/25/howto-use-mendeley-to-create-citations-using-latex-and-bibtex/">https://blog.mendeley.com/2011/10/25/howto-use-mendeley-to-create-citations-using-latex-and-bibtex/</a>. Sinon sélectionner les citations qui vous intéressent (CTRL + A sélectionne tout dans le dossier choisi), puis Edit -&gt; Exporter.</p>
-<p>Le choix du style de citations peut se faire dans les options au début.</p>
-</div>
-<div id="yaml" class="section level3" number="1.3.3">
-<h3><span class="header-section-number">1.3.3</span> YAML ?</h3>
-<p>Partie du haut qui donne les caractéristiques générales du document (titre, auteur, date, gestion de la bibliographie…).</p>
-</div>
-<div id="chunck" class="section level3" number="1.3.4">
-<h3><span class="header-section-number">1.3.4</span> chunck ?</h3>
-<p><a href="https://yihui.org/knitr/options/#cache">https://yihui.org/knitr/options/#cache</a></p>
-<p>Pour mettre du code dans le document</p>
-<p>Il est possible d’utiliser le raccourci ctrl+alt+i pour insérer rapidement un chunk.</p>
-</div>
-<div id="la-gestion-du-cache" class="section level3" number="1.3.5">
-<h3><span class="header-section-number">1.3.5</span> la gestion du cache</h3>
-<p>Dans un premier “chunk” qui peut s’appeler <em>setup </em>on peut ajouter un certain nombre de directives pour l’ensemble des chunks. Par exemple, comment afficher à chaque fois les images. Pour le cache c’est ici qu’on va introduire deux paramètres, qui permettent que le calcul se fasse qu’une seule fois et que le résultat soit enregistré, ainsi lors d’une prochaine compilation, il n’y pas nécessité de tout recalculer (ça fait gagner du temps !).</p>
-<ul>
-<li><p>cache = TRUE</p></li>
-<li><p>cache.lazy = FALSE)</p></li>
-</ul>
-<p><a href="https://bioinfo-fr.net/maitrisez-cache-de-rmarkdown">https://bioinfo-fr.net/maitrisez-cache-de-rmarkdown</a></p>
-</div>
-<div id="mise-en-page" class="section level3" number="1.3.6">
-<h3><span class="header-section-number">1.3.6</span> Mise en page</h3>
-<p>Visualier le rendu sans knitter : petite icone compas en haut à droite (“Switch to visual markdown editor”).</p>
-<p>** blablabla ** –&gt; rendu en gras : <strong>blablabla</strong></p>
-<p>‘mean(data$colonneA)’ –&gt; sort le résultat de la fonction demandée, ici la moyenne de la colonne A du fichier data</p>
-</div>
-<div id="et-les-tableaux" class="section level3" number="1.3.7">
-<h3><span class="header-section-number">1.3.7</span> Et les tableaux ?</h3>
-<p>avec kable, kableExtra et flextable</p>
-<p>kable = le package de base pour afficher des tableaux</p>
-<p>kableExtra = package amélioré qui permet de mettre en forme les tableaux</p>
-</div>
-<div id="les-équations-mathématiques" class="section level3" number="1.3.8">
-<h3><span class="header-section-number">1.3.8</span> Les équations mathématiques ?</h3>
-<p>dans MemoiR : packages amsmaths et amssyms (?), chargés dans le template.tex</p>
-</div>
-</div>
-<div id="écrire-un-article" class="section level2" number="1.4">
-<h2><span class="header-section-number">1.4</span> Écrire un article</h2>
-<p>Rmd -&gt; from template [choix parmi un éventail (i.e. PNAS, Plos, Elsevier publications…]</p>
-<p>install.packages(“rticles”)</p>
-<p>library(rticles)</p>
-<p><a href="https://pagedown.rbind.io/">https://pagedown.rbind.io/</a></p>
-</div>
-<div id="écrire-un-mémoire" class="section level2" number="1.5">
-<h2><span class="header-section-number">1.5</span> Écrire un mémoire</h2>
-<p>Nouveau projet -&gt; Markdown (choisi memoiR -&gt; document type memoir)</p>
-<p>Beaucoup de fichier et dossiers se créent ; ça peut impressioner, mais ça veut juste dire qu’il a “déjà travaillé.” Rien que compiler l’exemple permet d’avoir un guide pour créer son propre mémoire (ça prends plusieurs minutes).</p>
-<p>Intérêt de faire des chapitres : mieux gérer un doc long (manuscrit de thèse par exemple), inverser ordre des chapitres rapidement (juste changer nom du fichier et R recompile dans le nouvel ordre), temps de compilation qui diminue.</p>
-<p>chapitrer son document</p>
-<p>Le référencement croisé</p>
-<p><a href="https://ericmarcon.github.io/memoiR/gallery/memoir/bookdown_gitbook/index.html">https://ericmarcon.github.io/memoiR/gallery/memoir/bookdown_gitbook/index.html</a></p>
-<p><a href="https://ericmarcon.github.io/travailleR/">https://ericmarcon.github.io/travailleR/</a> [Excellente référence pour travailler sur R (pas que sur Markdown)]</p>
-<p>Plusieurs fichiers créés, dont :</p>
-<ul>
-<li><p>index –&gt; YAML que dans ce fichier (préciser page de garde créée en tant que pdf au préalable)</p>
-<ul>
-<li><ul>
-<li>précision de la langue (pour accès aux accents etc), de l’abstract, des mots-clés dans ce fichier ; Il est en effet important de noter -langage: english (ou bien le langage utilisé dans le document)</li>
-</ul></li>
-<li><ul>
-<li>1er chunk : NE PAS MODIFIER !</li>
-</ul></li>
-<li><ul>
-<li>2ème chunk qui permet de gérer le style des figures</li>
-</ul></li>
-<li><ul>
-<li>3ème chunk : knitr options –&gt; mettre la librairie ici</li>
-</ul></li>
-<li><ul>
-<li>Glossaire : permet de faire le lien avec les titres de nos différents chapitres</li>
-</ul></li>
-<li>-unnumbered (ne pas commencer la pagination à cette section)</li>
-</ul></li>
-<li><p>syntax</p></li>
-<li><p>getting start</p></li>
-<li><p>etc.</p></li>
-</ul>
-<p>Organisation de notre mémoire : le + efficace c’est de faire 1 fichier par chapitre, la numérotation des chapitres va permettre de compiler le tout dans le bon ordre (mais après, ça reste une préférence personnelle, on peut mettre tous les chapitres dans le même fichier si on préfére, ça sera un peu + long à compiler)</p>
-<p>Références internes au document à mettre entre {}</p>
-<p>Dans le sous-dossier latex</p>
-<ul>
-<li>template.tex -&gt; package intégrés pour écrire des formules mathématiques, options pour la bibliographie, options gitbook avec titre et url personnels (researchgate…)</li>
-</ul>
-<p>Indiquer la langue qu’on utilise (dans template.tex) : sert à charger les bons caractères (notamment pour les accents) et possibilité d’avoir un correcteur orthographique</p>
-<p>Template.tex = tout est déjà réglé en language LaTex, bien pratique si on veut juste modifier qqs options</p>
-<ul>
-<li>Fichiers after_body.tex = pour ajouter des annexes en fin de rapport</li>
-</ul>
-<p>Package tinytex : gère le langage LaTex dans R</p>
+<div id="e-partie-les-pollinisateurs-des-pins" class="section level1" number="3">
+<h1><span class="header-section-number">3</span> 2e partie : les pollinisateurs des pins</h1>
+<div id="ça-nexiste-pas" class="section level2" number="3.1">
+<h2><span class="header-section-number">3.1</span> ça n’existe pas</h2>
+<p>Par contre il y en a en dessous pour le romarin et le thym.</p>
+<p></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="e-partie-les-pollinisateurs-des-pins.html#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">kable</span>(export_TAG_3011_net[<span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>, <span class="fu">c</span>(<span class="dv">24</span>, <span class="dv">73</span>, <span class="dv">83</span>)], <span class="at">align =</span> <span class="st">&quot;c&quot;</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb1-2"><a href="e-partie-les-pollinisateurs-des-pins.html#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">kable_styling</span>(<span class="at">latex_options =</span> <span class="st">&quot;striped&quot;</span>)</span></code></pre></div>
+<table class="table" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:center;">
+commune
+</th>
+<th style="text-align:center;">
+nom_reconnu
+</th>
+<th style="text-align:center;">
+abondance
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">
+Gruissan
+</td>
+<td style="text-align:center;">
+Smilax aspera L., 1753
+</td>
+<td style="text-align:center;">
+P
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Gruissan
+</td>
+<td style="text-align:center;">
+Quercus ilex L., 1753
+</td>
+<td style="text-align:center;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Gruissan
+</td>
+<td style="text-align:center;">
+Smilax aspera L., 1753
+</td>
+<td style="text-align:center;">
+P
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Gruissan
+</td>
+<td style="text-align:center;">
+Aphyllanthes monspeliensis L., 1753
+</td>
+<td style="text-align:center;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Gruissan
+</td>
+<td style="text-align:center;">
+Quercus ilex L., 1753
+</td>
+<td style="text-align:center;">
+P
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Gruissan
+</td>
+<td style="text-align:center;">
+Aphyllanthes monspeliensis L., 1753
+</td>
+<td style="text-align:center;">
+P
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Leucate
+</td>
+<td style="text-align:center;">
+Quercus ilex L., 1753
+</td>
+<td style="text-align:center;">
+P
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Leucate
+</td>
+<td style="text-align:center;">
+Sedum sediforme (Jacq.) Pau, 1909
+</td>
+<td style="text-align:center;">
+P
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Leucate
+</td>
+<td style="text-align:center;">
+Smilax aspera L., 1753
+</td>
+<td style="text-align:center;">
+P
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Leucate
+</td>
+<td style="text-align:center;">
+Helichrysum stoechas (L.) Moench, 1794
+</td>
+<td style="text-align:center;">
+P
+</td>
+</tr>
+</tbody>
+</table>
+<p></p>
 
+<p></p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="e-partie-les-pollinisateurs-des-pins.html#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(sp)</span>
+<span id="cb2-2"><a href="e-partie-les-pollinisateurs-des-pins.html#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(raster)</span>
+<span id="cb2-3"><a href="e-partie-les-pollinisateurs-des-pins.html#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(rgdal)</span>
+<span id="cb2-4"><a href="e-partie-les-pollinisateurs-des-pins.html#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages(&#39;Rtools&#39;) install.packages(&#39;citr&#39;)</span></span>
+<span id="cb2-5"><a href="e-partie-les-pollinisateurs-des-pins.html#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages(&#39;devtools&#39;) library(devtools)</span></span>
+<span id="cb2-6"><a href="e-partie-les-pollinisateurs-des-pins.html#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="co"># devtools::install_github(&#39;crsh/citr&#39;) library(citr)</span></span></code></pre></div>
+<p></p>
 </div>
 </div>
             </section>
@@ -372,8 +371,8 @@ Ce document est une prise de notes collaboratives de l’atelier Rmarkdown effec
           </div>
         </div>
       </div>
-
-<a href="les-pinèdes.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="les-pinèdes.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="aperçu-des-données.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

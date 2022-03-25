@@ -1,0 +1,33 @@
+
+```{r libraries}
+library(sp)
+library(raster)
+library(rgdal)
+# install.packages("Rtools")
+# install.packages("citr")
+# install.packages("devtools")
+# library(devtools)
+# devtools::install_github("crsh/citr")
+# library(citr)
+
+```
+
+# Aperçu des données
+
+Nous avons un raster d'altitude à 25m pour la région des Alpes du Sud, téléchargé depuis le site de l'IGN [@ign_rge_2013].
+
+```{r data}
+
+# data = read_excel("data/releves_genepi_2021.xlsx", sheet = 2)
+raster = raster("data/MNT25_PNM.tif")
+# limites = readOGR("data/pn2008.shp")
+# crs(limites) = CRS("EPSG:2154")
+
+```
+
+Ce raster peut être visualisé ci-dessous.
+
+```{r MNT, echo=FALSE}
+plot(raster)
+# lines(limites)
+```

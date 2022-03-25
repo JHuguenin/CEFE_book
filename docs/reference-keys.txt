@@ -14,6 +14,11 @@ et-les-tableaux
 les-équations-mathématiques
 écrire-un-article
 écrire-un-mémoire
+les-pinèdes
+de-nos-régions
+e-partie-les-pollinisateurs-des-pins
+ça-nexiste-pas
+aperçu-des-données
 présentation-de-la-ptr-tof-ms
 une-brève-histoire-de-la-ptr-tof-ms
 instrumentation-générale

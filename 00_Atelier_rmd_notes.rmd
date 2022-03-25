@@ -66,8 +66,7 @@ Le guide de référence : [https://www.rstudio.com/wp-content/uploads/2015/03/rm
 
 citr : package pour faire sa bibliographie (une recherche du nom de l'auteur permet d'insérer la réfernce). Pour en savoir plus : [https://github.com/crsh/citr](https://github.com/crsh/citr) Après l'installation du package, il peut être nécessaire de quitter/rouvrir le projet pour que l'option "Insert citation" apparaisse dans le volet de "Addins". /!\ Le package peut ne pas être disponible pour certaines versions de R. 
 
-On n'est pas obligé d'installer citr si on a précisé le fichier .bib dans le YAML, on peut utiliser @... (fonctionne en mode "compas", pas en mode "normal"). Avec le @, on accède au .bib et à la bibliothèque principale de zotero (pas les bi
-
+On n'est pas obligé d'installer citr si on a précisé le fichier .bib dans le YAML, on peut utiliser @... (fonctionne en mode "compas", pas en mode "normal"). Avec le @, on accède au .bib et à la bibliothèque principale de zotero.
 
 
 Aternative, utiliser les clés de citation bibTex avec les logiciels de gestion de bibliographie : 
